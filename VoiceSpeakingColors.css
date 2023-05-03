@@ -1,0 +1,11 @@
+.avatarSpeaking-2pCGrZ:is([style*="392889726530748416"]) { /* dawn */
+    box-shadow: inset 0 0 0 2px #fa96ac ,inset 0 0 0 3px var(--background-secondary);
+}
+
+.avatarSpeaking-2pCGrZ:is([style*="92258383519817728"]) { /* hearty */
+    box-shadow: inset 0 0 0 2px #f56af6,inset 0 0 0 3px var(--background-secondary);
+}
+
+.avatarSpeaking-2pCGrZ:is([style*="252284396625854465"]) { /* Moiven */
+    box-shadow: inset 0 0 0 2px #b4995d,inset 0 0 0 3px var(--background-secondary);
+}
