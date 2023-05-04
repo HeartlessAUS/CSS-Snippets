@@ -1,6 +1,6 @@
 .container-1NXEtd .header-3OsQeK{
 	background-size: cover !important;
 }
-.container-1NXEtd:has( [href*="966540126408818688"]) .header-3OsQeK{ //sushi test
+.container-1NXEtd:has( [href*="966540126408818688"]) .header-3OsQeK{ /*sushi test*/
 	background-image: url("https://raw.githubusercontent.com/HeartlessAUS/HeartlessAUS.github.io/main/images/sushi.png")!important;
 }
