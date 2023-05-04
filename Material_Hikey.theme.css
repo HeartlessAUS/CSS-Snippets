@@ -1898,3 +1898,13 @@ section.panels-3wFtMD {
 		left: 0;
 		pointer-events: none;
 	}
+	.scroller-3X7KbA::before {
+		content: "";
+		position: fixed;
+		bottom: 0;
+		width: 72px;
+		height: 190px;
+		background: linear-gradient(transparent, var(--app-bg) 30%);
+		z-index: 1;
+		left: 0;
+	}
