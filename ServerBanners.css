@@ -1,6 +1,18 @@
 .container-1NXEtd .header-3OsQeK{
 	background-size: cover !important;
 }
+
+/*add banner*/
 .container-1NXEtd:has( [href*="966540126408818688"]) .header-3OsQeK{ /*sushi test*/
 	background-image: url("https://raw.githubusercontent.com/HeartlessAUS/HeartlessAUS.github.io/main/images/sushi.png")!important;
+}
+.container-1NXEtd:has( [href*="1103312764778328176"]) .header-3OsQeK{ /*volte*/
+	background-image: url("https://raw.githubusercontent.com/HeartlessAUS/HeartlessAUS.github.io/main/images/volte (1).png")!important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+}
+
+/* Remove default text */
+.container-1NXEtd:has(:is([href*="1103312764778328176"],[href*="966540126408818688"])) :is(.name-3Uvkvr,.guildIconContainer-3QvE6w,.headerChildren-2qV9P8){ 
+	display: none !important;
 }
