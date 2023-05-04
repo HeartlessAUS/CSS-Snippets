@@ -1908,3 +1908,29 @@ section.panels-3wFtMD {
 		z-index: 1;
 		left: 0;
 	}
+.section-28YDOf:has(> .roles-3vQPxb):has(+ .section-28YDOf .vc-user-connection){
+	border-radius: 0
+}
+.section-28YDOf:has(+ .lastSection-q3HCfo + .vc-uvs-popout-margin){
+	border-radius: 0 0 3px 3px !important;
+}
+.vc-uvs-popout-margin{
+	padding-bottom: 0 !important;
+	margin-top: 13px !important;
+}
+.theme-dark [aria-label="No Roles"]{
+	background-color: transparent !important
+}
+.lastSection-q3HCfo{
+	margin-top: 1px !important;
+}
+.section-28YDOf:has(.vc-uvs-button){
+	border-radius: 3px !important;
+}
+.section-28YDOf:has(.vc-user-connection){
+	border-radius: 0 0 3px 3px !important;
+	margin-bottom: 1px
+}
+.vc-uvs-modal-margin{
+	margin: 0 0 1px 0 !important
+}
