@@ -181,34 +181,6 @@
     pointer-events: none;
     z-index: 1
 }
-
-
-	.scroller-3X7KbA {
-		  contain: unset;
-		  padding-bottom: 190px;
-		  
-	}
-	.scroller-3X7KbA::after {
-		content: "";
-		position: fixed;
-		top: 0;
-		width: 72px;
-		height: 180px;
-		background: linear-gradient( var(--app-bg) 70%, transparent);
-		z-index: 0;
-		left: 0;
-		pointer-events: none;
-	}
-	.scroller-3X7KbA::before {
-		content: "";
-		position: fixed;
-		bottom: 0;
-		width: 72px;
-		height: 190px;
-		background: linear-gradient(transparent, var(--app-bg) 30%);
-		z-index: 1;
-		left: 0;
-	}
 	.tutorialContainer-2jwoiB {
 		position: fixed;
 		bottom: 4px;
@@ -1311,7 +1283,6 @@ section.panels-3wFtMD {
 	padding-left: 0;
 }
 .wrapper-1_HaEi .scroller-3X7KbA{
-	margin-top: 20px;
 	margin-bottom: 20px;
 }
 .section-28YDOf:has(> .buttonsContainer-3iOFIV){
@@ -1909,5 +1880,21 @@ section.panels-3wFtMD {
 	    background: var(--status-picker-color);
 		border-radius:  25px;
 		margin-left: 4px;
-		margin-top: 12px
+		margin-top: 12px;
 }
+	.scroller-3X7KbA {
+		  contain: unset;
+		  padding-bottom: 190px;
+		  margin-top: 72px;	  
+	}
+	.scroller-3X7KbA::after {
+		content: "";
+		position: fixed;
+		top: 0;
+		width: 72px;
+		height: 110px !important;
+		background: linear-gradient( var(--app-bg) 70%, transparent);
+		z-index: 0;
+		left: 0;
+		pointer-events: none;
+	}
