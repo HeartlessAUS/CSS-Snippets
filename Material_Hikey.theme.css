@@ -186,7 +186,7 @@
 	.scroller-3X7KbA {
 		  contain: unset;
 		  padding-bottom: 190px;
-		  padding-top: 130px !important;
+		  
 	}
 	.scroller-3X7KbA::after {
 		content: "";
