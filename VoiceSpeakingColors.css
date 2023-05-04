@@ -9,3 +9,7 @@
 .avatarSpeaking-2pCGrZ:is([style*="252284396625854465"]) { /* Moiven */
     box-shadow: inset 0 0 0 2px #b4995d,inset 0 0 0 3px var(--background-secondary);
 }
+
+.avatarSpeaking-2pCGrZ:is([style*="830530156048285716"]){ /* Lofi */
+    box-shadow: inset 0 0 0 2px #ebb43d,inset 0 0 0 3px var(--background-secondary);
+}
