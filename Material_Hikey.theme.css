@@ -1924,10 +1924,10 @@ section.panels-3wFtMD {
 .lastSection-q3HCfo{
 	margin-top: 1px !important;
 }
-.section-28YDOf:has(.vc-uvs-button){
+.section-28YDOf:has( .vc-uvs-button){
 	border-radius: 3px !important;
 }
-.section-28YDOf:has(.vc-user-connection){
+.section-28YDOf:has( .vc-user-connection){
 	border-radius: 0 0 3px 3px !important;
 	margin-bottom: 1px
 }
