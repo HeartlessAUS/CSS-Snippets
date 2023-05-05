@@ -1,0 +1,6 @@
+	.scroller-3X7KbA {
+		  padding-top: 56px !important;
+	}
+    .theme-dark .scroller-3X7KbA::after {
+            height: 160px !important;
+    }
