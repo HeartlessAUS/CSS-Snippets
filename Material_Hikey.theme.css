@@ -1973,3 +1973,64 @@ section.panels-3wFtMD {
     width: 28px;
     font-size: 10px !important;
 }
+.liveSmall-1Urjcy{
+    background-color: #00000050 !important;
+    backdrop-filter: blur(4px);
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.icons-2mwuFp:has( .liveSmall-1Urjcy){
+    margin: 0;
+}
+.streamPreview-3Fo29Y .lookFilled-1H2Jvj{
+ padding: 0 12px
+}
+.theme-dark .wrapper-2g4olo{
+        background-color: var(--background-secondary) !important;
+        border-radius: 3px;
+        width: calc(100% + 48px);
+        height:calc(100% + 52px);
+        margin-left: -48px;
+        z-index: 10;
+        position: relative;
+}
+[src="https://raw.githubusercontent.com/Vencord/Website/main/public/assets/favicon.png"] {
+  content: url(https://i.ibb.co/NjdTQxq/ambient.gif);
+  width: 24px;
+  height: 24px;
+}
+[src="https://raw.githubusercontent.com/Vencord/Website/main/public/assets/favicon.png"]:hover {
+  content: url(https://i.ibb.co/RzMdYJp/hover2.gif);
+  width: 24px;
+  height: 24px;
+}
+.container-nwU-8G, .slideContentOuterContainerTall-1G4gq9{
+      background-color: var(--dark-background-secondary) !important;
+      border-radius: 6px;
+}
+.slideContentOuterContainerTall-1G4gq9{
+  height: 500px !important;
+  margin-bottom: 2px;
+}
+.theme-dark .inspector-DFKXwB{
+        border-radius: 6px;
+        width: calc(100% + 48px);
+        margin-left: -48px;
+        padding-left: 58px
+}
+.layer-fP3xEz .content-1OG56Q{
+  min-height: 60px;
+  padding-top: 12px !important;
+}
+
+
+
+.settingsBanner-1eDJ5w{
+  height: 100px !important;
+}
+.preview-sMYs9f{
+  display: none;
+}
