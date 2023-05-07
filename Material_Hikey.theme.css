@@ -2034,3 +2034,13 @@ section.panels-3wFtMD {
 .preview-sMYs9f{
   display: none;
 }
+.forumOrHome-2VTX6r .children-3xh0VB{
+  border-radius: 25px 0 0 25px;
+}
+.toolbar-3_r2xA:has( [aria-label="Grid"]){
+  border-radius: 0 25px 25px 0 !important;
+  margin-left: 0
+}
+.clickable-vvKY2q, .animatedContainer-2laTjx, .bannerImage-ubW8K-, .bannerImg-2PzH6z{
+  width: 100% !important;
+}
