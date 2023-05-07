@@ -1,0 +1,42 @@
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  .membersWrap-3NUR2t { display: none;}
+  .selected-29KTGM { display: none;}
+  .toolbar-3_r2xA .clickable-ZD7xvu:nth-last-child(4) { display: none;}
+  .toolbar-3_r2xA{border-radius: 0 25px 25px 0 !important; margin-left: 0 !important}
+  .children-3xh0VB{border-radius: 25px 0 0 25px !important;}
+  .toolbar-3_r2xA [aria-label="Threads"]{right: 234px !important;}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1100px) {
+  .toolbar-3_r2xA { display: none;}
+  .children-3xh0VB { margin-right: 10px;}
+  .children-3xh0VB{border-radius: 25px !important;}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .sidebar-1tnWFu { width: 0px !important;}
+  .sidebar-1tnWFu  { padding: 0px !important;}
+  .chat-2ZfjoI { margin-left: 10px;}
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .wrapper-1_HaEi { display: none;}
+  .container-2cd8Mz { margin-left: 20px !important;}
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .sidebar-1tnWFu { display: none;}
+  .wrapper-1_HaEi { display: none;}
+  .container-2cd8Mz { margin-left: 20px !important;}
+}
+
+@media screen  and (min-width: 0px) and (max-width: 900px) and (min-height: 0px) and (max-height: 501px) {
+  .sidebar-1tnWFu { display: none;}
+  .title-31SJ6t { display: none !important;}
+  .chat-2ZfjoI { padding-top: 0px !important;}
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .BF-folderSidebar { display: none !important; margin-left: 0px;}
+  .chat-2ZfjoI {margin-left: 0px;}
+}
