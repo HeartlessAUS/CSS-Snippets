@@ -17,3 +17,7 @@
 [data-selenium-video-tile="830530156048285716"] .border-2Vy6FN.speaking-7QZEkv{ /* Lofi */
     box-shadow: inset 0 0 0 2px #ebb43d,inset 0 0 0 3px var(--background-secondary);
 }
+.avatarSpeaking-2pCGrZ:is([style*="768683779505782845"]),
+[data-selenium-video-tile="768683779505782845"] .border-2Vy6FN.speaking-7QZEkv{ /* Grumpy_Sushi */
+    box-shadow: inset 0 0 0 2px #bf00ff,inset 0 0 0 3px var(--background-secondary);
+}
