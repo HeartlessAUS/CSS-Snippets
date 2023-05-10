@@ -1,0 +1,37 @@
+.folder-241Joy[aria-label*="Modding"] .folderIconWrapper-1oRIZr{
+  background-image: url('https://creazilla-store.fra1.digitaloceanspaces.com/icons/3201469/cog-icon-md.png');
+  background-size:  80%;
+}
+.folder-241Joy[aria-label*="Destiny"] .folderIconWrapper-1oRIZr{
+  background-image: url('https://static-00.iconduck.com/assets.00/destiny-icon-512x475-qi0g8ih3.png');
+  background-size:  80%;
+  background-position: center 9px;
+}
+.folder-241Joy[aria-label*="Minecraft"] .folderIconWrapper-1oRIZr{
+  background-image: url('https://cdn-icons-png.flaticon.com/512/162/162614.png');
+  background-size:  80%;
+}
+.folder-241Joy[aria-label*="No Man"] .folderIconWrapper-1oRIZr{
+  background-image: url('https://static.miraheze.org/nmswiki/b/b9/TRAVELLER-b.png');
+  background-size:  130%;
+}
+.folder-241Joy[aria-label*="FFXIV"] .folderIconWrapper-1oRIZr,
+.folder-241Joy[aria-label*="Final Fantasy"] .folderIconWrapper-1oRIZr{
+  background-image: url('https://preview.redd.it/9oc2pqlljpa71.png?width=600&format=png&auto=webp&s=9139f466b4eec7eb01f9753ce05189a25634542c');
+  background-size:  100%;
+}
+.folder-241Joy[aria-label*="Communit"] .folderIconWrapper-1oRIZr,
+.folder-241Joy[aria-label*="Friend"] .folderIconWrapper-1oRIZr{
+  background-image: url('https://cdn-icons-png.flaticon.com/512/3127/3127995.png');
+  background-size:  80%;
+}
+.folder-241Joy[aria-label*="Random"] .folderIconWrapper-1oRIZr,
+.folder-241Joy[aria-label*="More "] .folderIconWrapper-1oRIZr{
+  background-image: url('https://creazilla-store.fra1.digitaloceanspaces.com/icons/3201793/random-icon-md.png');
+  background-size:  80%;
+}
+.folder-241Joy .folderIconWrapper-1oRIZr{
+  background-repeat: no-repeat;
+  background-blend-mode: color-dodge;
+  background-position: center;
+}
