@@ -28,4 +28,7 @@
 [data-selenium-video-tile="392889726530748416"] .background-L8lGH6{ /* Dawnzicle */
 	background: url("https://cdn.discordapp.com/attachments/729245824781123587/1102943076370100326/desktop-wallpaper-pastel-pixel-art-cute-pixel-art-thumbnail.jpg?size=1024");
 }
-
+.voiceUser-3nRK-K:has( [style*="768683779505782845"]),
+[data-selenium-video-tile="768683779505782845"] .background-L8lGH6{ /* Grumpy_Sushi */
+	background: url("https://cdn.discordapp.com/banners/768683779505782845/721fbc98dc6d3c2507759aafc353c130.webp?size=1024");
+}
