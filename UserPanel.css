@@ -1,0 +1,27 @@
+/*User Panel*/
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt{
+    background-color: var(--background-secondary-alt);
+    position: absolute;
+	z-index: 1;
+}
+.panels-3wFtMD:hover > :not(:last-child), .panels-3wFtMD:hover > .wrapper-3Hk90B~div{
+	max-height: 100%;
+}
+.panels-3wFtMD > :not(:last-child), .panels-3wFtMD > .wrapper-3Hk90B~div{
+	overflow: hidden;
+	max-height: 0;
+}
+.panels-3wFtMD:hover .container-YkUktl, .panels-3wFtMD:hover > :not(:last-child), .panels-3wFtMD:hover > .wrapper-3Hk90B~div{
+	transform: translateY(-47px);
+}
+.panels-3wFtMD:hover .container-YkUktl .avatarWrapper-1B9FTW{
+	transform: translateY(47px);
+}
+
+.panels-3wFtMD button[aria-label="Disable Game Activity"], .panels-3wFtMD button[aria-label="Enable Game Activity"], .panels-3wFtMD button[aria-label="Mute"], .panels-3wFtMD button[aria-label="Deafen"], .panels-3wFtMD button[aria-label="User Settings"] {
+    background-color: var(--background-primary);
+    margin: 0 12px
+}
+.panels-3wFtMD .horizontal-1Piu5-{
+    margin: auto
+}
