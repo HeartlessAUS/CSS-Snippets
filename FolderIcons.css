@@ -30,8 +30,30 @@
   background-image: url('https://creazilla-store.fra1.digitaloceanspaces.com/icons/3201793/random-icon-md.png');
   background-size:  80%;
 }
+
+
+
+
 .folder-241Joy .folderIconWrapper-1oRIZr{
   background-repeat: no-repeat;
   background-blend-mode: color-dodge;
   background-position: center;
+}
+
+.closedFolderIconWrapper-3tRb2d {display: none;}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
 }
