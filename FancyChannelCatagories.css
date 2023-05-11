@@ -1,0 +1,42 @@
+/* Fancy Channel Catagories
+    Made by Hearty */
+:root{
+    --catagory-background: var(--background-primary);  /* Catagory background color */
+    --catagory-radius: 6px; /* Catagory radius */
+    --catagory-spacing: 12px;  /* Spacing between catagories */
+    --capitalizeName: capitalize; /* Change to 'none' to remove capitalization of channel names */
+    --catagoryAlignment: center; /* Channel Catagory alignment: left, right, center */
+    --catagoryTitleUppercase: uppercase; /* change to 'none' to remove Uppercasing of catagory titles */
+}
+.sectionDivider-189lqb{margin-bottom: var(--catagory-spacing)} /* Add space between catagory and home */
+[aria-label="Channels"] .containerDefault-3TQ5YN ~ .containerDefault-YUSmu3,
+[aria-label="Channels"] .containerDefault-3TQ5YN, .voiceUserSummary-huJ8Md,
+.container-1Bj0eq {
+    background-color: var(--catagory-background) !important; /* set color */
+    margin-left: 8px; padding-right: 8px; /* clean up formatting */
+}
+[aria-label="Channels"] .container-1Bj0eq .containerDefault-YUSmu3{
+    margin-bottom: 0; /* Fix forum gap */ 
+}
+[aria-label="Channels"] .containerDefault-YUSmu3:has(+ .containerDefault-3TQ5YN),
+[aria-label="Channels"] .containerDefault-3TQ5YN:has(+ .containerDefault-3TQ5YN),
+[aria-label="Channels"] li:last-child, .voiceUserSummary-huJ8Md,
+[aria-label="Channels"] .container-1Bj0eq:has(+ .containerDefault-3TQ5YN){
+    margin-bottom: var(--catagory-spacing); /* space between catagories */
+    border-radius: 0 0 var(--catagory-radius) var(--catagory-radius); /* add border to bottom of catagories */
+    padding-bottom: 8px; /* clean up formatting */
+}
+.containerDefault-3TQ5YN{
+    border-radius: var(--catagory-radius) var(--catagory-radius) 0 0; /* add border to top of catagories */
+    padding: 6px; /* clean up formatting */
+}
+[aria-label="Channels"] .containerDefault-3TQ5YN:not(:has(+ .containerDefault-YUSmu3)) {
+    border-radius:var(--catagory-radius); /* add border to closed catagories */
+}
+.sidebar-1tnWFu .name-3BUDLf{
+    text-transform: var(--catagoryTitleUppercase); /* make catagory title uppercase */
+    text-align: var(--catagoryAlignment) /* center title */
+}
+.name-28HaxV{
+    text-transform: var(--capitalizeName);  /* capitalize channel name */
+}
