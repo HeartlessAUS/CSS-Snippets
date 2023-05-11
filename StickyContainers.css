@@ -1,0 +1,32 @@
+
+	.tutorialContainer-2jwoiB, .tutorialContainer-2jwoiB + .listItem-3SmSlK,
+    .tutorialContainer-1pL9QS{
+        position: fixed;
+        z-index: 1;
+    } 
+	.tutorialContainer-2jwoiB {bottom: 4px;}
+	.tutorialContainer-2jwoiB+.listItem-3SmSlK {bottom: 62px;}
+	.tutorialContainer-1pL9QS {top: 0px;padding-top: 12px}
+	
+    .scroller-3X7KbA {padding: 72px 0 126px 0;}
+
+	.scroller-3X7KbA::after, .scroller-3X7KbA::before{
+		content: "";
+		position: fixed;
+		width: 72px;
+		height: 150px !important;
+		left: 0;
+		pointer-events: none;
+	}
+    .scroller-3X7KbA::before{
+        top: 0;
+        height: 72px !important;
+        background: linear-gradient( var(--background-tertiary) 70%, transparent);
+        z-index: 1;
+    }
+	.scroller-3X7KbA::after {
+		bottom: 0;
+		background: linear-gradient(transparent, var(--background-tertiary) 30%);
+        z-index: 0;
+	}
+    .lowerBadge-3j0ZAg{z-index: 0;}
