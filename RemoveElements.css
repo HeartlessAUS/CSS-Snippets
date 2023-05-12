@@ -1,0 +1,60 @@
+:root{
+    /* Message Box */
+    //--Gift: inline;
+    //--GIF: none;
+    //--Sticker: none;
+    //--Emoji: none;
+
+    /* Toolbar */
+    //--Threads: none;
+    //--Notifications: none;
+    //--Pinned: none;
+    //--Memberlist: none;
+    //--Inbox: none;
+    //--Help: none;
+    //--Search: none;
+    //--VoiceCall: none;
+    //--VideoCall: none;
+    //--StartDM: none;
+    //--AddDM: none;
+    //--SearchUsersChannels: none;
+    //--Focus: none;
+    //--VoiceMore: none;
+
+    /* Home */
+    //--BigSearch: none;
+    //--Friends: none;
+    //--Library: none;
+    //--Nitro: none;
+    //--MessageRequests: none;
+}
+
+/* Message Box */
+[aria-label="Send a gift"]{display: var(--Gift)}
+[aria-label="Open GIF picker"]{display: var(--GIF)}
+[aria-label="Open sticker picker"]{display: var(--Sticker)}
+[aria-label="Select emoji"]{display: var(--Emoji)}
+
+/* Toolbar */
+.search-39IXmY, .libraryFilter-1nwg6T{display: var(--Search)}
+[aria-label="Threads"]{display: var(--Threads)}
+[aria-label="Notification Settings"]{display: var(--Notifications)}
+[aria-label="Pinned Messages"]{display: var(--Pinned)}
+[aria-label="Hide Member List"],[aria-label="Show Member List"]{display: var(--Memberlist)}
+[aria-label="Inbox"]{display: var(--Inbox)}
+[aria-label="Open GIF picker"]{display: var(--GIF)}
+[aria-label="Help"]{display: var(--Help)}
+[aria-label="New Group DM"]{display: var(--StartDM)}
+[aria-label="Add Friends to DM"]{display: var(--AddDM)}
+[aria-label="Start Video Call"]{display: var(--VideoCall)}
+[aria-label="Start Voice Call"]{display: var(--VoiceCall)}
+[aria-label="Search users and channels"]{display: var(--SearchUsersChannels)}
+[aria-label="Focus"]{display: var(--Focus)}
+[aria-label="More"]{display: var(--VoiceMore)}
+
+/* Home */
+.searchBar-3TnChZ{display: var(--BigSearch)}
+.channel-1Shao0[aria-posinset="1"]{display: var(--Friends)}
+.channel-1Shao0[aria-posinset="2"]{display: var(--Library)}
+.channel-1Shao0[aria-posinset="3"]{display: var(--Nitro)}
+.channel-1Shao0[aria-posinset="3"] + .channel-1Shao0{display: var(--MessageRequests)}
