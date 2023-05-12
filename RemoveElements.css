@@ -1,32 +1,32 @@
 :root{
     /* Message Box */
-    //--Gift: none;
-    //--GIF: none;
-    //--Sticker: none;
-    //--Emoji: none;
+    --Gift: block;
+    --GIF: block;
+    --Sticker: block;
+    --Emoji: block;
 
     /* Toolbar */
-    //--Threads: none;
-    //--Notifications: none;
-    //--Pinned: none;
-    //--Memberlist: none;
-    //--Inbox: none;
-    //--Help: none;
-    //--Search: none;
-    //--VoiceCall: none;
-    //--VideoCall: none;
-    //--StartDM: none;
-    //--AddDM: none;
-    //--SearchUsersChannels: none;
-    //--Focus: none;
-    //--VoiceMore: none;
+    --Threads: block;
+    --Notifications: block;
+    --Pinned: block;
+    --Memberlist: block;
+    --Inbox: block;
+    --Help: block;
+    --Search: block;
+    --VoiceCall: block;
+    --VideoCall: block;
+    --StartDM: block;
+    --AddDM: block;
+    --SearchUsersChannels: block;
+    --Focus: block;
+    --VoiceMore: block;
 
     /* Home */
-    //--BigSearch: none;
-    //--Friends: none;
-    //--Library: none;
-    //--Nitro: none;
-    //--MessageRequests: none;
+    --BigSearch: block;
+    --Friends: block;
+    --Library: block;
+    --Nitro: block;
+    --MessageRequests: block;
 }
 
 /* Message Box */
