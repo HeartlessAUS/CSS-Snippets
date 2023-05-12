@@ -32,3 +32,7 @@
 [data-selenium-video-tile="768683779505782845"] .background-L8lGH6{ /* Grumpy_Sushi */
 	background: url("https://cdn.discordapp.com/banners/768683779505782845/721fbc98dc6d3c2507759aafc353c130.webp?size=1024");
 }
+.voiceUser-3nRK-K:has( [style*="90543405850980352"]),
+[data-selenium-video-tile="90543405850980352"] .background-L8lGH6{ /* Bacon */
+	background: url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/images/bacon.jpg");
+}
