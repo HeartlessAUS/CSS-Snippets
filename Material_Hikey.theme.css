@@ -15,13 +15,12 @@
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
 /*@import url("https://raw.githubusercontent.com/Xhylo/ChannelIcons/main/Channelicons.css");*/
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css");
-
+@import url("https://dablulite.github.io/CyanBootstrapIcons/import.css");
 @import url('https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/FolderIcons.css');
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/VoiceChannelBanners.css");
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/VoiceSpeakingColors.css");
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/ServerBanners.css");
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/FocusMode.css");
-
 :root{
     /* NOTE: change "block" to "none" if you want to hide the listed icons! */
     --help-icon: none;
