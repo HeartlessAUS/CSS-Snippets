@@ -20,6 +20,7 @@
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/VoiceSpeakingColors.css");
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/ServerBanners.css");
 @import url("https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/FocusMode.css");
+@import url('https://raw.githubusercontent.com/HeartlessAUS/CSS-Snippets/main/EmojiChannels.css'); /*Emoji Channels*/
 :root{
     /* NOTE: change "block" to "none" if you want to hide the listed icons! */
     --help-icon: none;
