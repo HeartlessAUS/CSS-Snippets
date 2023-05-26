@@ -2070,3 +2070,136 @@ section.panels-3wFtMD {
 .offline-22aM7E:hover .memberInner--L4X2b{
     filter: grayscale(0) !important;
 }
+.buttons-uaqb-5:hover{max-width: unset !important;}
+
+.background-3d_SjE {
+    background-color: transparent;
+    padding: 0;
+}
+.fieldList-in8WkP {
+    background-color: transparent;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.field-21XZwa {
+    width: calc((100%/2) - 2.5px);
+    border-radius: 8px;
+    background-color: var(--background-primary);
+    flex-flow: column;
+    padding: 15px;
+    display: flex;
+    margin-top: 0 !important;
+    position: relative;
+    overflow-y: scroll;
+    height: auto;
+    margin-bottom: 0;
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 0;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    background-color: var(--button-secondary-background) !important;
+    border-radius: 6px;
+    transition: .1s;
+}
+.field-21XZwa .fieldButton-14lHvK:hover {
+    background-color: var(--button-secondary-background-hover) !important;
+}
+.field-21XZwa .fieldButton-14lHvK:hover > div {
+    background-image: none !important;
+}
+.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+    right: 5px;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    width: 100%;
+    margin-right: 0;
+    position: relative;
+    right: 0 !important;
+}
+.field-21XZwa .fieldButtonList-28BYbB {
+    gap: 5px;
+}
+.theme-dark .section-28YDOf:has( .vc-user-connection){
+    border-radius: 3px !important;
+    margin-top: 1px;
+}
+
+.vc-permviewer-userperms-title-container{
+    padding: 10px;
+    background-color: var(--profile-body-background-color);
+    margin-top: 1px;
+    border-radius: 3px;
+}
+.vc-permviewer-userperms-title-container{
+    padding-top: 8px;
+    padding-bottom: 6px
+}
+.vc-permviewer-userperms-title{
+    margin-top: 6px !important
+}
+.vc-permviewer-userperms-title-container:has(+ .roles-3vQPxb){
+    border-radius: 3px 3px 0 0
+}
+.vc-permviewer-userperms-title-container + .roles-3vQPxb{
+    border-radius: 0 0 3px 3px
+}
+
+.accountProfileCard-lbN7n- .background-3d_SjE .fieldList-in8WkP .constrainedRow-3y91Xf .button-ejjZWC{
+    width: 36px;
+    padding: 0
+}
+.constrainedRow-3y91Xf{
+    margin-bottom: 12px;
+}
+
+.accountProfileCard-lbN7n- .button-ejjZWC[aria-label*="Reveal"] .contents-3NembX{
+    content: url("https://static.thenounproject.com/png/4234249-200.png");
+    filter: invert(1);
+    width: 24px;
+    height: 24px
+}
+.accountProfileCard-lbN7n- .button-ejjZWC[aria-label*="Hide"] .contents-3NembX{
+    content: url("https://cdn.icon-icons.com/icons2/2566/PNG/512/hide_icon_153458.png");
+    filter: invert(1);
+    width: 24px;
+    height: 24px
+}
+
+  .reactionMe-1PwQAc
+{
+   box-shadow: 0px 0px 2px rgb(255, 255, 255),  0px 0px 2px rgb(255, 255, 255);
+   filter: saturate(1.5);
+   filter:blur(0.3px);
+}
+
+
+.contents-2MsGLg [src] + .header-2jRmjb:after {
+    top: calc((0.3 - var(--decoration-to-avatar-ratio)/2)*100%);
+    left: -52px;
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG + .contents-2MsGLg [src] + .header-2jRmjb:after{
+    top: calc((0.4 - var(--decoration-to-avatar-ratio)/2)*100%);
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG + .contents-2MsGLg .avatarDecoration-34OC0G{
+   margin-top: 28px !important; 
+}
+.wrapper-30-Nkg.groupStart-3Mlgv1 .avatarDecoration-34OC0G{
+    margin-top: 0px !important;
+}
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .scrollableContainer-15eg7h{
+    border-radius: 0 0 20px 20px;
+}
+.image-3FliiM{
+    height: 60px;
+}
+
+.roleIcon-2cey4v{
+    float: left;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0
+}
