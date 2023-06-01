@@ -1,0 +1,51 @@
+.textArea-2CLwUE{
+  margin-right:24px
+}
+.buttons-uaqb-5:not(:hover) {
+    max-width: 42px;
+    right: 4px;
+}
+
+.buttons-uaqb-5 {
+    overflow: hidden;
+    position: absolute;
+    transition: all 350ms;
+
+}
+
+.buttons-uaqb-5:not(:hover)::before {
+    opacity: 100%;
+    transition: opacity 350ms;
+}
+
+.buttons-uaqb-5::before {
+    opacity: 0%;
+    transition: opacity 150ms;
+    position: absolute;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='352' height='42' x='80' y='96' fill='rgb(181, 186, 193)' class='ci-primary'/%3E%3Crect width='352' height='42' x='80' y='240' fill='rgb(181, 186, 193)' class='ci-primary'/%3E%3Crect width='352' height='42' x='80' y='384' fill='rgb(181, 186, 193)' class='ci-primary'/%3E%3C/svg%3E");
+    display: block;
+    object-fit: cover;
+    height: 44px;
+    width: 26px;
+    top: 9px;
+    right: 7px;
+}
+
+.buttons-uaqb-5 > div, .buttons-uaqb-5 > button {
+    transform: scaleX(0%) !important;
+    opacity: 0%;
+    transition: all 0.3s;
+}
+.buttons-uaqb-5:hover > div, .buttons-uaqb-5:hover > button {
+    transform: scaleX(100%) !important;
+    opacity: 1;
+}
+
+.buttons-uaqb-5:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: unset;
+    right: 0px;
+    transition: all 150ms;
+    background-color: var(--bg-overlay-3,var(--channeltextarea-background));
+}
