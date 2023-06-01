@@ -1,11 +1,3 @@
-:root{
-    --catagory-background: var(--background-primary);  /* Catagory background color */
-    --catagory-radius: 6px; /* Catagory radius */
-    --catagory-spacing: 12px;  /* Spacing between catagories */
-    --capitalizeName: capitalize; /* Change to 'none' to remove capitalization of channel names */
-    --catagoryAlignment: center; /* Channel Catagory alignment: left, right, center */
-    --catagoryTitleUppercase: uppercase; /* change to 'none' to remove Uppercasing of catagory titles */
-}
 .sectionDivider-189lqb{margin-bottom: var(--catagory-spacing)} /* Add space between catagory and home */
 [aria-label="Channels"] .containerDefault-3TQ5YN ~ .containerDefault-YUSmu3,
 [aria-label="Channels"] .containerDefault-3TQ5YN, .voiceUserSummary-huJ8Md,
