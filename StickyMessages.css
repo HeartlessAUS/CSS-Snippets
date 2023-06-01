@@ -1,0 +1,98 @@
+/*Support Server Sticky Message - Thanks to daz for this idea*/
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo :is([aria-label^="color-request"],[aria-label^="banner-request"],[aria-label^="logo-request"],[aria-label^="icon-request"])) .channelTextArea-1VQBuV {
+    display: flex;
+    flex-direction: column;
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo :is([aria-label^="color-request"],[aria-label^="banner-request"],[aria-label^="logo-request"],[aria-label^="icon-request"])) .channelTextArea-1VQBuV:before {
+    display: flex;
+    background: var(--background-tertiary);
+    padding: 10px 16px 8px;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--header-primary);
+    font-weight: 700;
+    white-space: pre-wrap;
+    order: -2;
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo :is([aria-label^="color-request"],[aria-label^="banner-request"],[aria-label^="logo-request"],[aria-label^="icon-request"])) .channelTextArea-1VQBuV:after {
+    display: flex;
+    background: var(--background-tertiary);
+    padding: 10px 16px 8px;
+    border-radius: 8px 8px 0 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--header-secondary);
+    white-space: pre-wrap;
+    order: -1;
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo :is([aria-label^="color-request"],[aria-label^="banner-request"],[aria-label^="logo-request"],[aria-label^="icon-request"])) .scrollableContainer-15eg7h {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo :is([aria-label^="color-request"],[aria-label^="banner-request"],[aria-label^="logo-request"],[aria-label^="icon-request"])):has(.hasConnectedBar-1vN2JH) .channelTextArea-1VQBuV:before {
+    margin-bottom: 3px;
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo :is([aria-label^="color-request"],[aria-label^="banner-request"],[aria-label^="logo-request"],[aria-label^="icon-request"])) .attachedBars-2BCP3l {
+    border-radius: 0;
+}
+
+
+
+
+
+/* Color requests */
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="color-request"]) .channelTextArea-1VQBuV:before {
+    padding: 10px 16px 4px;
+    content: "Apply for Avatar Speaking color.";
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="color-request"]) .channelTextArea-1VQBuV:after {
+    padding: 0 16px 8px;
+    border-radius: 0;
+    content: "• Check #user-info for rules and help. \a • Use the template below: \a    1. Discord Username: \a    2. Discord UserID: \a    3. Color (in a colorcode format. eg: hex, rgb):  \a \a If your request gets reacted to but you don't see it, you may need to cut and repaste the snippet, or refresh your client.";
+}
+
+/* Banner requests */
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="banner-request"]) .channelTextArea-1VQBuV:before {
+    padding: 10px 16px 4px;
+    content: "Apply for Voice Banner.";
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="banner-request"]) .channelTextArea-1VQBuV:after {
+    padding: 0 16px 8px;
+    border-radius: 0;
+    content: "• Check #user-info for rules and help. \a • Use the template below: \a    1. Discord Username: \a    2. Discord UserID: \a    3. Banner (Link or direct image):   \a \a If your request gets reacted to but you don't see it, you may need to cut and repaste the snippet, or refresh your client.";
+}
+
+
+
+
+/* Logo requests */
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="logo-request"]) .channelTextArea-1VQBuV:before {
+    padding: 10px 16px 4px;
+    content: "Apply for Server Logo.";
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="logo-request"]) .channelTextArea-1VQBuV:after {
+    padding: 0 16px 8px;
+    border-radius: 0;
+    content: "• Check #server-info for rules and help. \a • Use the template below: \a    1. Discord Server Name: \a    2. Discord Server ID: \a    3. Banner (Link or direct image): \a    4. Keep original text?:   \a \a If your request gets reacted to but you don't see it, you may need to cut and repaste the snippet, or refresh your client.";
+}
+
+/* Icon requests */
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="icon-request"]) .channelTextArea-1VQBuV:before {
+    padding: 10px 16px 4px;
+    content: "Apply for Folder Icon.";
+}
+
+html:has(.container-1NXEtd[aria-label="Volte (server)"] .selected-2TbFuo [aria-label^="icon-request"]) .channelTextArea-1VQBuV:after {
+    padding: 0 16px 8px;
+    border-radius: 0;
+    content: "• Check #server-info for rules and help. \a • Use the template below: \a    1. Folder Name (or Names if multiple): \a    2. Icon (Link or direct image. preferably square, black icon):   \a \a If your request gets reacted to but you don't see it, you may need to cut and repaste the snippet, or refresh your client.";
+}
