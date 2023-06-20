@@ -3,6 +3,8 @@
  * @version 0.1
  * @author Hearty#0001
 */
+@import url("https://heartlessaus.github.io/CSS-Snippets/StickyMessages.css");
+@import url("https://heartlessaus.github.io/CSS-Snippets/ProfileDB.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 :root {
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
