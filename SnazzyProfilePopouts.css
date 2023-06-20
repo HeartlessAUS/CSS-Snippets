@@ -1,0 +1,201 @@
+/**
+ * @name ProfilePopouts
+ * @version 0.1
+ * @author Hearty#0001
+*/
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+:root {
+  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+  --rs-online-color: #43b581; /* Colour for online status */
+  --rs-idle-color: #faa61a; /* Colour for idle status */
+  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+.userPopoutOuter-1OHwPL .section-28YDOf:has(> .note-1NN2aP),
+.userPopoutOuter-1OHwPL .divider-2dDziJ,
+.userPopoutOuter-1OHwPL .userTagUsernameBase-267ALn{
+	display: none
+}
+.userPopoutOuter-1OHwPL{
+	border-radius: 28px
+}
+.userPopoutOuter-1OHwPL .userPopoutInner-nv9Y92:before,
+.userPopoutOuter-1OHwPL .overlayBackground-2aa7wt{
+	border-radius: 25px
+}
+.userPopoutOuter-1OHwPL .roundedBanner-uNt2w-{
+	border-radius: 25px 25px 12px 12px;
+}
+
+.userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN{
+	overflow: visible;
+	contain: unset
+}
+.userPopoutOuter-1OHwPL .popoutBannerPremium-3i5EEI::before{
+	content: "";
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	left: 0; top: 0;
+	background-image: inherit;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+	filter: blur(50px) opacity(0.5);
+}
+
+.userPopoutOuter-1OHwPL .avatarPositionPremiumBanner-2EAbSH{
+	top: 22px;
+	backdrop-filter: blur(12px);
+	background: #00000050;
+	border: 4px solid #00000000
+}
+.userPopoutOuter-1OHwPL .profileBadges-2pItdR{
+	border-radius: 25px;
+}
+.userPopoutOuter-1OHwPL .userProfileInnerThemedWithBanner-25XGmz .profileBadges-2pItdR{
+    top: -37px;
+    right: 4px;
+	backdrop-filter: blur(12px);
+	border: 2px solid var(--profile-gradient-primary-color)
+}
+.userPopoutOuter-1OHwPL .userProfileInnerThemedWithBanner-25XGmz .userPopoutOverlayBackground-3A0Pcz{
+	margin-top: -24px
+}
+.userPopoutOuter-1OHwPL .scroller-15bIdk{
+	padding: 0 !important;
+	margin-right: -8px
+}
+.userPopoutOuter-1OHwPL .overlayBackground-2aa7wt{
+	background: transparent;
+	box-shadow: unset !important;
+}
+.userPopoutOuter-1OHwPL .section-28YDOf{
+	background-color: var(--profile-body-background-color);
+	margin-bottom: 2px;
+	border-radius: 3px;
+}
+.userPopoutOuter-1OHwPL .section-28YDOf:has(> .markup-eYLPri){
+	border-radius: 25px 25px 3px 3px;
+}
+.userPopoutOuter-1OHwPL .section-28YDOf:not(.usernameSection-3FppkT,.section-28YDOf:has(.messageInputContainer-24qqTx)){
+	padding: 12px;
+}
+.userPopoutOuter-1OHwPL .lastSection-q3HCfo{
+	border-radius: 3px 3px 18px 18px;
+	padding: unset !important
+}
+.userPopoutOuter-1OHwPL .lastSection-q3HCfo .messageInput-1enlaJ{
+	height: 56px
+}
+.userPopoutOuter-1OHwPL .usernameSection-3FppkT{
+	border-radius: 25px;
+	padding: 12px 24px 12px 24px;
+	margin-bottom: 8px
+}
+.userPopoutOuter-1OHwPL .userProfileInnerThemedWithBanner-25XGmz .usernameSection-3FppkT{
+	border: 2px solid var(--profile-gradient-primary-color);
+}
+.userPopoutOuter-1OHwPL .usernameSection-3FppkT:has(+ .customStatusSection-2_fKRl){
+	border-radius: 25px 25px 0 0;
+	padding-bottom: 0;
+	border-bottom: none;
+	margin-bottom: 0px;
+	box-shadow: none;
+}
+.userPopoutOuter-1OHwPL .customStatusSection-2_fKRl{
+	border-top: none;
+	border-radius: 0 0 25px 25px;
+	margin-bottom: 8px;
+	padding: 4px 24px 12px 24px !important;
+}
+.userPopoutOuter-1OHwPL .userProfileInnerThemedWithBanner-25XGmz .customStatusSection-2_fKRl{
+	border: 2px solid var(--profile-gradient-primary-color);
+	border-top: none;
+}
+.userPopoutOuter-1OHwPL .role-2TIOKu{
+	border-radius: 25px
+}
+.userPopoutOuter-1OHwPL .roleCircle-3TFUOr{margin-left: unset}
+
+.userPopoutOuter-1OHwPL .banner-1YaD3N:not([style^="background-image"]) {
+	opacity: 0.5
+}
+.userPopoutOuter-1OHwPL .userProfileInnerThemedNonPremium-2AJg-H{
+	border-radius: 28px;
+	box-shadow: inset 0px 0px 0px 4px #ffffff50
+}
+.userPopoutOuter-1OHwPL .activity-3uaYny .horizontal-30-DXt>:not(:first-child){
+	margin-left: 2px;
+	border-radius: 6px 25px 25px 6px;
+	background-color: var(--profile-body-background-color);
+}
+.userPopoutOuter-1OHwPL .activity-3uaYny .buttonSize-dIiz43{
+	border-radius: 25px 6px 6px 25px;
+	background-color: var(--profile-body-background-color);
+}
+.userPopoutOuter-1OHwPL .usernameSection-3FppkT, .userPopoutOuter-1OHwPL .customStatusSection-2_fKRl{
+	backdrop-filter: brightness(0.8);
+}
+.userPopoutOuter-1OHwPL .scroller-15bIdk > :first-child{
+	border-radius: 25px 25px 3px 3px;
+	background-color: var(--profile-body-background-color);
+}
+.userPopoutOuter-1OHwPL .scroller-15bIdk .section-28YDOf:has(> .buttonsContainer-3iOFIV){
+	border-radius: 25px;
+	margin-bottom: 8px
+}
+.userPopoutOuter-1OHwPL :is(.button-ejjZWC, .button-35nmN9){
+	border-radius: 25px;
+}
+.userPopoutOuter-1OHwPL .roleIcon-29epUq{
+	order: 2;
+	margin-right: 0;
+	border-radius: 25px
+}
+
+.avatarHint-2g3Mcd {
+	overflow: hidden;
+	border-radius: var(--rs-avatar-shape) !important;
+} 
+.avatarHint-2g3Mcd foreignObject {
+	mask: none;
+}
+.avatarHintInner-2HUAWj{
+	clip-path: unset !important;
+	inset: unset !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+.svg-1G_H_8 {
+    contain: unset !important;
+}
+.accountProfilePopoutWrapper-3GskID{
+	left: 8px !important
+}
+.accountProfilePopoutWrapper-3GskID .menu-2-eHMB{
+	background-color: var(--profile-body-background-color);
+	border-radius: 24px 24px 20px 20px;
+	margin-bottom: 2px;
+	max-width: 324px;
+}
+.accountProfilePopoutWrapper-3GskID .labelContainer-35-WEd{
+	border-radius: 25px
+}
+.accountProfilePopoutWrapper-3GskID :is(.scroller-15bIdk, .customStatusSection-2_fKRl, .usernameSection-3FppkT){
+	display: none
+}
