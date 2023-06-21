@@ -6,7 +6,7 @@
 }
 .voiceUser-3nRK-K{
 	border-radius: 4px;
-	background: center linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), var(--userBG) center / cover !important
+	background: center linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), var(--userBG) center / cover !important
 }
 .draggable-S2aEx4{
 	padding: 1px 0;
@@ -16,5 +16,5 @@
 	height: 100%;
 }
 .background-L8lGH6{
-    background: center linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), var(--userBG) center / cover !important
+    background: center linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), var(--userBG) center / cover !important
 }
