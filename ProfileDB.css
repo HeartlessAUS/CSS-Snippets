@@ -5,10 +5,10 @@
 .userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) :is(.usernameSection-3FppkT, .customStatusSection-2_fKRl, .profileBadges-2pItdR){
 	border: 2px solid #784ca8 !important;
 }
-.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .usernameSection-3FppkT{
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .usernameSection-3FppkT:has(+ .customStatusSection-2_fKRl){
 	border-bottom: none !important
 }
-.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .customStatusSection-2_fKRl{
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .usernameSection-3FppkT + .customStatusSection-2_fKRl{
 	border-top: none !important
 }
 .userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .userPopoutInner-nv9Y92 {
