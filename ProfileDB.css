@@ -1,3 +1,27 @@
-.userPopoutOuter-1OHwPL .avatarPositionPremiumBanner-2EAbSH:has( [src*="92258383519817728"]){ /* Hearty */
+/* Hearty */
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .avatarPositionPremiumBanner-2EAbSH{
 	margin-left: 106px; /* unset for left, 106px for mid, 224 for right */
+}
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) :is(.usernameSection-3FppkT, .customStatusSection-2_fKRl, .profileBadges-2pItdR){
+	border: 2px solid #784ca8 !important;
+}
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .usernameSection-3FppkT{
+	border-bottom: none !important
+}
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .customStatusSection-2_fKRl{
+	border-top: none !important
+}
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .userPopoutInner-nv9Y92 {
+    background: linear-gradient(#6313bf, #8313bf 120px, #b113bf);
+}
+.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .userPopoutInner-nv9Y92:before{
+    border-radius: 25px;
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+	left: 4px;
+	top: 4px;
+    content: "";
+    pointer-events: none;
+    background-color: hsla(0,0%,0%,0.45);
+    position: absolute;
 }
