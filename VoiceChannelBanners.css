@@ -1,24 +1,20 @@
 @import url("https://heartlessaus.github.io/CSS-Snippets/BannerDB.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/StickyMessages.css");
-
 /* Read Text Easier */
 .username-vAneIW{
 	text-shadow: 1px 1px #000;
 }
 .voiceUser-3nRK-K{
 	border-radius: 4px;
-	background-size: cover !important;
-	background-position: center !important;
+	background: center linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), var(--userBG) center / cover !important
 }
 .draggable-S2aEx4{
 	padding: 1px 0;
 }
 .voiceUser-3nRK-K .content-1Tgc42{
 	margin: 0 !important;
-	background: #00000040;
 	height: 100%;
 }
 .background-L8lGH6{
-    background-size:contain !important;
-	background-position: center !important;
+    background: center linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), var(--userBG) center / cover !important
 }
