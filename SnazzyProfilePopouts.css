@@ -224,3 +224,6 @@
 .accountProfilePopoutWrapper-3GskID :is(.scroller-15bIdk, .customStatusSection-2_fKRl, .usernameSection-3FppkT){
 	display: none
 }
+.userPopoutOuter-1OHwPL .vertical-qPeOMD .button-ejjZWC{
+	border-radius: 25px !important;
+}
