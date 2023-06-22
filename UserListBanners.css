@@ -2,5 +2,7 @@
 @import url("https://heartlessaus.github.io/CSS-Snippets/StickyMessages.css");
 
 .member-2gU6Ar{
-	background: center linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), var(--userBG) center / cover !important
+    	background-image:  linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), var(--userBG) !important;
+	background-size: cover;
+	background-position: center;
 }
