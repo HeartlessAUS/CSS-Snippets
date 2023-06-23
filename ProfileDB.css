@@ -12,16 +12,5 @@
 	border-top: none !important
 }
 .userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .userPopoutInner-nv9Y92 {
-    background: linear-gradient(#6313bf, #8313bf 120px, #b113bf);
-}
-.userPopoutOuter-1OHwPL:has( [src*="92258383519817728"]) .userPopoutInner-nv9Y92:before{
-    border-radius: 25px;
-    height: calc(100% - 8px);
-    width: calc(100% - 8px);
-	left: 4px;
-	top: 4px;
-    content: "";
-    pointer-events: none;
-    background-color: hsla(0,0%,0%,0.45);
-    position: absolute;
+    background: linear-gradient(#6313bf, #8313bf 120px, #b113bf) !important;
 }
