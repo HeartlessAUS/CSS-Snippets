@@ -4,10 +4,12 @@
 .member-2gU6Ar:has( [src*="179485778546524161"]),
 .voiceUser-3nRK-K:has( [style*="179485778546524161"]),
 [data-selenium-video-tile="179485778546524161"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="179485778546524161"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{
 .member-2gU6Ar:has( [src*="236471269413879809"]),
 .voiceUser-3nRK-K:has( [style*="236471269413879809"]),
-[data-selenium-video-tile="236471269413879809"] .background-L8lGH6{ /* dunce */
-	--userBG: url("https://media.tenor.com/PgwTZMqCB4MAAAAS/dope-sad.gif");
+[data-selenium-video-tile="236471269413879809"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="236471269413879809"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{
+	--userBG: url("https://media.tenor.com/PgwTZMqCB4MAAAAS/dope-sad.gif"); /* dunce */
 }
 
 .member-2gU6Ar:has( [src*="830530156048285716"]),
@@ -17,32 +19,38 @@
 }
 .member-2gU6Ar:has( [src*="92258383519817728"]),
 .voiceUser-3nRK-K:has( [style*="92258383519817728"]),
-[data-selenium-video-tile="92258383519817728"] .background-L8lGH6{ /* Hearty */
+[data-selenium-video-tile="92258383519817728"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="92258383519817728"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{ /* Hearty */
 	--userBG: url("https://cdn.discordapp.com/banners/92258383519817728/a_1b5c12f393c94c0d1d1a5efcba9ba7f0.gif?size=512");
 }
 .member-2gU6Ar:has( [src*="249882528570146817"]),
 .voiceUser-3nRK-K:has( [style*="249882528570146817"]),
-[data-selenium-video-tile="249882528570146817"] .background-L8lGH6{ /* 93_Dwarves */
+[data-selenium-video-tile="249882528570146817"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="249882528570146817"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{ /* 93_Dwarves */
 	--userBG: url("https://media.tenor.com/E20uu6HgaAQAAAAd/nicholas-cage-funny.gif");
 }
 .member-2gU6Ar:has( [src*="1088761151866818581"]),
 .voiceUser-3nRK-K:has( [style*="1088761151866818581"]),
-[data-selenium-video-tile="1088761151866818581"] .background-L8lGH6{ /* MoreRNG */
+[data-selenium-video-tile="1088761151866818581"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="1088761151866818581"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{ /* MoreRNG */
 	--userBG: url("https://cdn.discordapp.com/banners/1088761151866818581/a_cca9f618d6f428beb8f88d317b64dd9f.gif??size=512");
 }
 .member-2gU6Ar:has( [src*="252284396625854465"]),
 .voiceUser-3nRK-K:has( [style*="252284396625854465"]),
-[data-selenium-video-tile="252284396625854465"] .background-L8lGH6{ /* Moiven */
+[data-selenium-video-tile="252284396625854465"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="252284396625854465"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{ /* Moiven */
 	--userBG: url("https://images.forwardcdn.com/image/970x/center/images/cropped/enhanced-17159-1423068265-32-1496265751.jpg");
 }
 .member-2gU6Ar:has( [src*="392889726530748416"]),
 .voiceUser-3nRK-K:has( [style*="392889726530748416"]),
-[data-selenium-video-tile="392889726530748416"] .background-L8lGH6{ /* Dawnzicle */
+[data-selenium-video-tile="392889726530748416"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="392889726530748416"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{ /* Dawnzicle */
 	--userBG: url("https://cdn.discordapp.com/attachments/729245824781123587/1102943076370100326/desktop-wallpaper-pastel-pixel-art-cute-pixel-art-thumbnail.jpg?size=512");
 }
 .member-2gU6Ar:has( [src*="768683779505782845"]),
 .voiceUser-3nRK-K:has( [style*="768683779505782845"]),
-[data-selenium-video-tile="768683779505782845"] .background-L8lGH6{ /* Grumpy_Sushi */
+[data-selenium-video-tile="768683779505782845"] .background-L8lGH6,
+.userPopoutOuter-1OHwPL:has([src*="768683779505782845"]) .userProfileInnerThemedNonPremium-2AJg-H .bannerSVGWrapper-2CLfzN{ /* Grumpy_Sushi */
 	--userBG: url("https://cdn.discordapp.com/banners/768683779505782845/721fbc98dc6d3c2507759aafc353c130.webp?size=512");
 }
 .member-2gU6Ar:has( [src*="90543405850980352"]),
