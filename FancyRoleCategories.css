@@ -21,3 +21,6 @@
 .members-3WRCEx .container-1oeRFJ:has(+ .membersGroup-2eiWxl), .members-3WRCEx .container-1oeRFJ:last-child{
 	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius) !important; /* add border */
 }
+.members-3WRCEx .container-1oeRFJ:has(+ .container-1oeRFJ){
+	border-radius: 0
+}
