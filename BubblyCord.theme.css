@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord
- * @version 1.0.1
+ * @version 1.0.2
  * @description Rounded Discord! what more can you ask for.
  * @author Hearty
  * @authorId 92258383519817728
@@ -234,9 +234,6 @@
 .unreadMentionsIndicatorBottom-3RJMnQ{
 	bottom: 122px
 }
-.unreadMentionsIndicatorTop-2bTgUU {
-    top: 122px;
-}
 
 .content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
 	background: var(--background-primary);
@@ -374,3 +371,13 @@
 }
 .scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) {margin-top: 172px}
 
+.unreadMentionsIndicatorTop-2bTgUU {
+    top: 68px;
+}
+.unreadMentionsIndicatorTop-2bTgUU:has(+ .scroller-3X7KbA [aria-label*="Favorites"]),
+.unreadMentionsIndicatorTop-2bTgUU:has(+ .scroller-3X7KbA .ColorwaySelectorBtnContainer) {
+    top: 122px;
+}
+.unreadMentionsIndicatorTop-2bTgUU:has(+ .scroller-3X7KbA [aria-label*="Favorites"]):has(+ .scroller-3X7KbA .ColorwaySelectorBtnContainer) {
+    top: 180px;
+}
