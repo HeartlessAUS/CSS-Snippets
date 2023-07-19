@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord
- * @version 1.0.0
+ * @version 1.0.1
  * @description Rounded Discord! what more can you ask for.
  * @author Hearty
  * @authorId 92258383519817728
@@ -230,35 +230,6 @@
 }
 .container-2o3qEW:has(> .membersWrap-3NUR2t:not([style*="min-width: 0px"])){min-width: 240px}
 
-.tutorialContainer-2jwoiB, .tutorialContainer-2jwoiB + .listItem-3SmSlK,
-.tutorialContainer-1pL9QS, .tutorialContainer-1pL9QS + .listItem-3SmSlK{
-    position: fixed;
-    z-index: 1;
-} 
-.tutorialContainer-2jwoiB {bottom: 4px;}
-.tutorialContainer-2jwoiB+.listItem-3SmSlK {bottom: 62px;}
-.tutorialContainer-1pL9QS {top: 22px;padding-top: 12px}
-.tutorialContainer-1pL9QS + .listItem-3SmSlK {top: 90px;}
-.scroller-3X7KbA {margin: 118px 0 120px 0; padding-bottom: 4px}
-
-.scroller-3X7KbA::after, .scroller-3X7KbA::before{
-	content: "";
-	position: fixed;
-	width: 62px;
-	height: 122px !important;
-	left: 6px;
-	pointer-events: none;
-	background: var(--background-secondary);
-	border-radius: var(--radius-big)
-}
-.scroller-3X7KbA::before{
-    top: 26px;
-    z-index: 1;
-}
-.scroller-3X7KbA::after {
-	bottom: 4px;
-    z-index: 0;
-}
 .lowerBadge-3j0ZAg{z-index: 0;}
 .unreadMentionsIndicatorBottom-3RJMnQ{
 	bottom: 122px
@@ -341,3 +312,65 @@
 	margin-left: 0; 
 	border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
+
+
+.tutorialContainer-2jwoiB, .tutorialContainer-2jwoiB + .listItem-3SmSlK,
+.tutorialContainer-1pL9QS, .tutorialContainer-1pL9QS + .listItem-3SmSlK{
+    position: fixed;
+    z-index: 1;
+} 
+.tutorialContainer-2jwoiB {bottom: 4px;}
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {bottom: 62px;}
+.tutorialContainer-1pL9QS {top: 22px;padding-top: 12px}
+.tutorialContainer-1pL9QS + .listItem-3SmSlK {top: 90px;}
+.scroller-3X7KbA {margin: 66px 0 120px 0; padding-bottom: 4px}
+
+.scroller-3X7KbA::after, .scroller-3X7KbA::before{
+	content: "";
+	position: fixed;
+	width: 62px;
+	height: 122px;
+	left: 6px;
+	pointer-events: none;
+	background: var(--background-secondary);
+	border-radius: var(--radius-big)
+}
+.scroller-3X7KbA::before{
+	height: 64px !important;
+    top: 26px;
+    z-index: 1;
+}
+.scroller-3X7KbA::after {
+	bottom: 4px;
+    z-index: 0;
+}
+/* colorways support */
+
+.ColorwaySelectorBtnContainer{
+	position: fixed;
+    z-index: 1;
+	top: 90px;
+}
+
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer)::before{
+	height: 122px !important;
+}
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer) {margin-top: 122px}
+
+/* fav support */
+
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):before{
+	height: 122px !important;
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) {margin-top: 122px}
+/* fav support and colorways support */
+
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) .ColorwaySelectorBtnContainer{
+	top: 146px;
+}
+
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer):before{
+	height: 178px !important;
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) {margin-top: 172px}
+
