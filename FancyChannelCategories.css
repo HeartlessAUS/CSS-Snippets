@@ -41,3 +41,17 @@
 .name-28HaxV{
     text-transform: var(--capitalizeName);  /* capitalize channel name */
 }
+
+.wrapper-NhbLHG:has(.content-2V2neN){
+	background: var(--catagory-background);
+}
+.wrapper-NhbLHG:has(.content-2V2neN):first-of-type{
+	border-radius: var(--catagory-radius) var(--catagory-radius) 0 0;
+}
+.wrapper-NhbLHG:has(.content-2V2neN):has(+ .sectionDivider-189lqb){
+	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
+	margin-bottom: var(--catagory-spacing);
+}
+.containerWithMargin-1CVXAM + .wrapper-NhbLHG:has(.content-2V2neN):has(+ .sectionDivider-189lqb){
+	border-radius: var(--catagory-radius);
+}
