@@ -1,11 +1,12 @@
 /**
  * @name BubblyCord
- * @version 1.0.2
- * @description Rounded Discord! what more can you ask for.
+ * @version 1.0.3
+ * @description Rounded Discord! what more can you ask for. Supports Colorways!
  * @author Hearty
  * @authorId 92258383519817728
  * @updateUrl https://heartlessaus.github.io/CSS-Snippets/BubblyCord.theme.css
  * @source https://github.com/HeartlessAUS/CSS-Snippets
+ * @website https://github.com/DaBluLite/DiscordColorways
  * @invite 9uQgdwzMCg
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
@@ -20,7 +21,8 @@
 .toolbar-3_r2xA .cursorPointer-B3uwDA:has([name="Note"]),
 .theme-dark .children-3xh0VB:after, .preview-button, [aria-label="Hide User Profile"],
 [aria-label="Pending"] :last-child, .sectionDivider-189lqb, div[style="height: 12px;"],
-.container-2giAcK:after{
+.container-2giAcK:after, .toolbar-3_r2xA [aria-label="Help"],
+.chat-25x62K:before{
 	display: none
 }
 .children-3xh0VB .iconWrapper-2awDjA{
@@ -49,9 +51,14 @@
 	flex: none;
 }
 .nowPlayingColumn-1eCBCN .container-1oAagU,
-.peopleColumn-1wMU14, .scroller-2XLwLg, .applicationStore-2nk7Lo{
+.peopleColumn-1wMU14, .scroller-2XLwLg, .applicationStore-2nk7Lo,
+.pageWrapper-2PwDoS, .scroller-RfJjkV, .container-3wLKDe,
+.container-2IKOsH:has(.tabBar-1_P75h){
 	border-radius: var(--radius-big);
-	background-color: var(--background-primary)
+	background-color: var(--background-primary) !important
+}
+.mainCard-3KBsBI{
+		background-color: var(--background-secondary)
 }
 .content-1jQy2l .userPanelInnerThemed-3YO1BB,
 .content-1jQy2l .userPanelInner-3KPel3:before,
@@ -59,8 +66,14 @@
 .content-1jQy2l .profilePanel-2VBkh8,
 .content-1jQy2l .bannerSVGWrapper-2CLfzN,
 .content-1jQy2l .bannerPremium-kkSkPv,
-.content-1jQy2l .scrollerBase-1Pkza4{
+.content-1jQy2l .scrollerBase-1Pkza4,
+.container-3XgAHv{
 		border-radius: var(--radius-big) !important;
+}
+
+.container-3wLKDe{
+	margin-right: 8px;
+	padding-top: 48px
 }
 .scroller-hE2gWq{
 	border-left: none
@@ -153,6 +166,9 @@
 .content-1jQy2l, .tabBody-2dgbAs, .container-3u6dG-{
 	margin-top: -58px;
 }
+.chatContent-3KubbW{
+	
+}
 .members-3WRCEx, .messagesWrapper-RpOMA3, .container-1NXEtd{
 	margin-top: 52px
 }
@@ -228,8 +244,12 @@
 	width: 240px;
 	height: 8px !important;
 }
-.container-2o3qEW:has(> .membersWrap-3NUR2t:not([style*="min-width: 0px"])){min-width: 240px}
-
+.container-2o3qEW:has(> .membersWrap-3NUR2t:not([style*="min-width: 0px"])){
+	min-width: 240px;
+}
+.membersWrap-3NUR2t{
+	min-height: 100%
+}
 .lowerBadge-3j0ZAg{z-index: 0;}
 .unreadMentionsIndicatorBottom-3RJMnQ{
 	bottom: 122px
@@ -237,13 +257,13 @@
 
 .content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
 	background: var(--background-primary);
-	border-radius: 0;
 }
 
-.content-yjf30S .channel-1Shao0:nth-child(2){
+.channel-1Shao0:nth-child(2) {
 	border-radius: var(--radius-small) var(--radius-small) 0 0;
 }
-.content-yjf30S .channel-1Shao0:nth-child(5){
+
+.channel-1Shao0:has(+.privateChannelsHeaderContainer-1UWASm) {
 	border-radius: 0 0 var(--radius-small) var(--radius-small) ;
 }
 .mentioned-Tre-dv{
@@ -301,16 +321,24 @@
 	background: transparent;
 }
 
-.libraryHeader-2loraV .children-3xh0VB{
+.libraryHeader-2loraV .children-3xh0VB,
+[aria-label="Thread header"] .children-3xh0VB,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .children-3xh0VB,
+.children-3xh0VB:has(+ .toolbar-3_r2xA .returnButton-1xn3Ii){
 	margin-right: 0; 
 	border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
-.libraryHeader-2loraV .toolbar-3_r2xA{
+.libraryHeader-2loraV .toolbar-3_r2xA,
+[aria-label="Thread header"] .toolbar-3_r2xA,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .toolbar-3_r2xA,
+.toolbar-3_r2xA:has(.returnButton-1xn3Ii){
 	margin-left: 0; 
 	border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
-
-
+.chat-2ZfjoI:has(~ .container-3XgAHv [aria-label="Thread header"]) .toolbar-3_r2xA,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .toolbar-3_r2xA{
+	margin-right: 16px
+}
 .tutorialContainer-2jwoiB, .tutorialContainer-2jwoiB + .listItem-3SmSlK,
 .tutorialContainer-1pL9QS, .tutorialContainer-1pL9QS + .listItem-3SmSlK{
     position: fixed;
@@ -320,8 +348,11 @@
 .tutorialContainer-2jwoiB+.listItem-3SmSlK {bottom: 62px;}
 .tutorialContainer-1pL9QS {top: 22px;padding-top: 12px}
 .tutorialContainer-1pL9QS + .listItem-3SmSlK {top: 90px;}
-.scroller-3X7KbA {margin: 66px 0 120px 0; padding-bottom: 4px}
 
+.scroller-3X7KbA > div:not([class]){
+	margin-bottom: 130px;
+	margin-top: 72px
+}
 .scroller-3X7KbA::after, .scroller-3X7KbA::before{
 	content: "";
 	position: fixed;
@@ -352,14 +383,18 @@
 .scroller-3X7KbA:has( .ColorwaySelectorBtnContainer)::before{
 	height: 122px !important;
 }
-.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer) {margin-top: 122px}
 
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer) > div:not([class]){
+	margin-top: 128px
+}
 /* fav support */
 
 .scroller-3X7KbA:has( [aria-label*="Favorites"]):before{
 	height: 122px !important;
 }
-.scroller-3X7KbA:has( [aria-label*="Favorites"]) {margin-top: 122px}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) > div:not([class]){
+	margin-top: 126px
+}
 /* fav support and colorways support */
 
 .scroller-3X7KbA:has( [aria-label*="Favorites"]) .ColorwaySelectorBtnContainer{
@@ -369,7 +404,9 @@
 .scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer):before{
 	height: 178px !important;
 }
-.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) {margin-top: 172px}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) > div:not([class]){
+	margin-top: 184px
+}
 
 .unreadMentionsIndicatorTop-2bTgUU {
     top: 68px;
@@ -380,4 +417,25 @@
 }
 .unreadMentionsIndicatorTop-2bTgUU:has(+ .scroller-3X7KbA [aria-label*="Favorites"]):has(+ .scroller-3X7KbA .ColorwaySelectorBtnContainer) {
     top: 180px;
+}
+
+.offline-22aM7E {
+    opacity: 1;
+}
+.offline-22aM7E .layout-1qmrhw {
+    opacity: 0.3;
+}
+
+
+.tabBar-1_P75h{
+	margin-top: 68px
+}
+
+.voiceChannelsButton-SRmgo8{
+	margin: 0 0 var(--catagory-spacing) 8px;
+	background: var(--catagory-background);
+	    border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
+}
+.containerDefault-YUSmu3:has(+ .voiceChannelsButton-SRmgo8){
+	padding-bottom: 8px
 }
