@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 1.0.4
+ * @version 1.0.4.1
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyRoleCategories.css");
@@ -454,4 +454,36 @@
 .chat-2ZfjoI:has( [aria-label*="(thread)"]) [aria-label="More"]{
 	position: absolute;
 	right: 264px
+}
+.chat-1-OBC7:before{
+	display: none
+}
+.libraryHeader-2loraV .children-3xh0VB,
+[aria-label="Thread header"] .children-3xh0VB,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .children-3xh0VB,
+.children-3xh0VB:has(+ .toolbar-3_r2xA .returnButton-1xn3Ii),
+.topControls-23RE3h .children-3xh0VB,
+.channelChatWrapper-35N3nR .children-3xh0VB{
+	margin-right: 0; 
+	border-radius: var(--radius-small) 0 0 var(--radius-small);
+}
+.libraryHeader-2loraV .toolbar-3_r2xA,
+[aria-label="Thread header"] .toolbar-3_r2xA,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .toolbar-3_r2xA,
+.toolbar-3_r2xA:has(.returnButton-1xn3Ii),
+.topControls-23RE3h .toolbar-3_r2xA,
+.channelChatWrapper-35N3nR .toolbar-3_r2xA{
+	margin-left: 0; 
+	border-radius: 0 var(--radius-small) var(--radius-small) 0;
+}
+
+.topControls-23RE3h{
+	margin-top: 6px
+}
+.videoControls-353CsJ{
+	padding: 0 6px 16px
+}
+
+.channelChatWrapper-35N3nR .chatContent-3KubbW{
+	margin-top: -56px
 }
