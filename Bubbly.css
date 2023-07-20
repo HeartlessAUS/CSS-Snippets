@@ -298,7 +298,7 @@
     background-color: var(--background-primary);
     margin: 0 12px;
 }
-.panels-3wFtMD .horizontal-1Piu5-{
+.panels-3wFtMD .horizontal-1Piu5-:has( button[aria-label="Mute"]){
     width: 100%;
 	padding: 8px;
 	margin: auto;
