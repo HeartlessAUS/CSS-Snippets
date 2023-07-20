@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 1.0.4.2
+ * @version 1.0.4.3
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyRoleCategories.css");
@@ -248,18 +248,6 @@
 	bottom: 122px
 }
 
-.content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
-	background: var(--background-primary);
-	border-radius: 0
-}
-
-.channel-1Shao0:nth-child(2) {
-	border-radius: var(--radius-small) var(--radius-small) 0 0;
-}
-
-.channel-1Shao0:has(+.privateChannelsHeaderContainer-1UWASm) {
-	border-radius: 0 0 var(--radius-small) var(--radius-small) ;
-}
 .mentioned-Tre-dv{
 	border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
@@ -487,4 +475,26 @@
 
 .channelChatWrapper-35N3nR .chatContent-3KubbW{
 	margin-top: -56px
+}
+.wrapper-2SplAX{
+	margin-bottom: 8px;
+	height: 14px
+}
+.pageBody-23bo4p, .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9 {
+	background: var(--background-primary)
+}
+
+.content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
+	background: var(--background-primary);
+	border-radius: 0
+}
+.privateChannelsHeaderContainer-1UWASm{
+	background: transparent !important
+}
+.channel-1Shao0:nth-child(2) {
+	border-radius: var(--radius-small) var(--radius-small) 0 0 !important;
+}
+
+.channel-1Shao0:has(+.privateChannelsHeaderContainer-1UWASm) {
+	border-radius: 0 0 var(--radius-small) var(--radius-small) !important;
 }
