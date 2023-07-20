@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 1.0.4.1
+ * @version 1.0.4.2
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyRoleCategories.css");
@@ -250,6 +250,7 @@
 
 .content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
 	background: var(--background-primary);
+	border-radius: 0
 }
 
 .channel-1Shao0:nth-child(2) {
