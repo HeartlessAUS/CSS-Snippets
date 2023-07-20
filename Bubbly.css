@@ -429,3 +429,17 @@
 .containerDefault-YUSmu3:has(+ .voiceChannelsButton-SRmgo8){
 	padding-bottom: 8px
 }
+/* pm fix */
+
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) > [style*="opacity: 1"]{
+	margin-bottom: 0px
+}
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer) > [style*="opacity: 1"] ~ [aria-label="Servers"]{
+	margin-top: 0px
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) > [style*="opacity: 1"] ~ [aria-label="Servers"]{
+	margin-top: 0px
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) > [style*="opacity: 1"] ~ [aria-label="Servers"]{
+	margin-top: 0px
+}
