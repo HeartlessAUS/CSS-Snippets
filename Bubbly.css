@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 1.0.2
+ * @version 1.0.3
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyRoleCategories.css");
@@ -12,7 +12,10 @@
 .theme-dark .children-3xh0VB:after, .preview-button, [aria-label="Hide User Profile"],
 [aria-label="Pending"] :last-child, .sectionDivider-189lqb, div[style="height: 12px;"],
 .container-2giAcK:after, .toolbar-3_r2xA [aria-label="Help"],
-.chat-25x62K:before{
+.chat-25x62K:before, .libraryHeader-2loraV:before,
+.headerBar-1dSpQr:before{
+	display: none
+}{
 	display: none
 }
 .children-3xh0VB .iconWrapper-2awDjA{
