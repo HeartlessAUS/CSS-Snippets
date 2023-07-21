@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 1.0.5
+ * @version 1.0.5.1
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyRoleCategories.css");
@@ -533,13 +533,13 @@
 
 .chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .children-3xh0VB,
 .chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .children-3xh0VB,
-.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t)))) .children-3xh0VB{
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .children-3xh0VB{
 	margin-right: 0; 
 	border-radius: var(--radius-small) 0 0 var(--radius-small);
 }
 .chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .toolbar-3_r2xA,
 .chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .toolbar-3_r2xA,
-.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t)))) .toolbar-3_r2xA{
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .toolbar-3_r2xA{
 	margin-left: 0;
 	border-radius: 0 var(--radius-small) var(--radius-small) 0;
 }
