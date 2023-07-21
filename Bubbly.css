@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 1.0.4.3
+ * @version 1.0.5
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyChannelCategories.css");
 @import url("https://heartlessaus.github.io/CSS-Snippets/FancyRoleCategories.css");
@@ -15,13 +15,7 @@
 .chat-25x62K:before, .libraryHeader-2loraV:before,
 .headerBar-1dSpQr:before{
 	display: none
-}{
-	display: none
 }
-.children-3xh0VB .iconWrapper-2awDjA{
-	margin-right: 0
-}
-
 .tabBar-ra-EuL .addFriend-emTWY1{
 	position: fixed;
 	right: 192px
@@ -497,4 +491,126 @@
 
 .channel-1Shao0:has(+.privateChannelsHeaderContainer-1UWASm) {
 	border-radius: 0 0 var(--radius-small) var(--radius-small) !important;
+}
+.animatedContainer-2laTjx[style*="transform: translateY(-90px)"]{
+	transform: translateY(0) !important;
+	opacity: 0.2 !important;
+	height: 48px;
+}
+.header-3OsQeK:has(+ .animatedContainer-2laTjx){
+	background: transparent
+}
+.favoritesInfo-3HTE7X{
+	display: none
+}
+.animatedContainer-2laTjx[style*="transform: translateY(-90px)"] .bannerImage-ubW8K-{
+	transform: translateY(-38px) !important;
+}
+.guildBreadcrumbContainer-3LUtHj{
+	position: absolute;
+	right: 48px
+}
+.guildBreadcrumbContainer-3LUtHj .caret-1le2LN{
+	display: none
+}
+
+.children-3xh0VB .iconWrapper-2awDjA {
+    margin-right: 8px;
+}
+[aria-label="Thread header"] .children-3xh0VB{
+	flex: 1 0 70%
+}
+[aria-label="Thread header"] .toolbar-3_r2xA{
+	flex: 0 1 20%
+}
+
+.chatHeaderBar-2fUORh, .container-27JV1h{
+	margin-top: 58px
+}
+.chatHeaderBar-2fUORh ~ .messagesWrapper-RpOMA3{
+	margin-top: 0
+}
+
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .children-3xh0VB,
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .children-3xh0VB,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t)))) .children-3xh0VB{
+	margin-right: 0; 
+	border-radius: var(--radius-small) 0 0 var(--radius-small);
+}
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .toolbar-3_r2xA,
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .toolbar-3_r2xA,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t)))) .toolbar-3_r2xA{
+	margin-left: 0;
+	border-radius: 0 var(--radius-small) var(--radius-small) 0;
+}
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .toolbar-3_r2xA,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .toolbar-3_r2xA{
+		margin-right: 16px;
+}
+.chat-2ZfjoI:not(:has( .content-1jQy2l .container-2o3qEW)) [aria-label="Threads"]{
+	right: 230px
+}
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) [aria-label="More"]{
+	position: relative;
+	right: 0
+}
+
+.messagesWrapper-RpOMA3:has( .container-3YcgdM){
+	margin-top: 0
+}
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .title-31SJ6t{
+	width: calc(100% - 426px)
+}
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) [aria-label="Threads"]{
+	right: 12px
+}
+
+.searchResultsWrap-5RVOkx{
+	background: var(--background-primary);
+	border-radius: var(--radius-big)
+}
+.searchResult-O9NDji{
+	background: var(--background-secondary);
+}
+.searchHeader-1r_ZSh{
+	margin: 10px 8px 0 8px;
+	height: 48px;
+	border-radius: var(--radius-small)
+}
+.chat-2ZfjoI:has(~ .container-3XgAHv){
+	margin-right: -8px
+}
+.resizeHandle-PBRzPC{
+	z-index: 10
+}
+@media (max-width: 1200px){
+	[aria-label="Friends"] .children-3xh0VB,
+	.children-3xh0VB:has(+ .toolbar-3_r2xA [aria-label="Show User Profile (Unavailable)"]){
+		margin-right: 0; 
+		border-radius: var(--radius-small) 0 0 var(--radius-small);
+	}
+	[aria-label="Friends"] .toolbar-3_r2xA,
+	.toolbar-3_r2xA:has([aria-label="Show User Profile (Unavailable)"])	{
+		margin-left: 0;
+		border-radius: 0 var(--radius-small) var(--radius-small) 0;
+		width: auto
+	}
+	.toolbar-3_r2xA:has([aria-label="Show User Profile (Unavailable)"]){
+		margin-right: 18px
+	}
+	.tabBar-ra-EuL .addFriend-emTWY1{
+		position: relative;
+		right: 0
+	}
+}
+[aria-label*="(thread)"] + .membersWrap-3NUR2t{
+	background: var(--bg-overlay-chat,var(--background-secondary));
+}
+
+[aria-label*="(thread)"] .messagesWrapper-RpOMA3{
+	margin-top: 58px
+}
+
+.libraryHeader-2loraV ~ .container-3u6dG-{
+	padding-top: 58px
 }
