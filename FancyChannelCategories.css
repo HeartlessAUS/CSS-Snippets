@@ -55,3 +55,46 @@
 .containerWithMargin-1CVXAM + .wrapper-NhbLHG:has(.content-2V2neN):has(+ .sectionDivider-189lqb){
 	border-radius: var(--catagory-radius);
 }
+[aria-label="Channels"] .containerDefault-YUSmu3:has(+ .voiceChannelsButton-SRmgo8){
+	padding-bottom: 8px
+}
+
+
+.voiceChannelsButton-SRmgo8{
+	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
+	background-color: var(--catagory-background);
+	margin: 0 0 0 8px
+}
+.channel-1Shao0:has(.linkButton-2NshQj){
+	background-color: var(--catagory-background);
+	border-radius: 0;
+}
+.channel-1Shao0:first-of-type{
+	border-radius: var(--catagory-radius) var(--catagory-radius) 0 0;
+}
+.channel-1Shao0:has([data-list-item-id*="messageRequests"]):not(:has(+ .channel-1Shao0 [data-list-item-id*="family-center"])){
+	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
+}
+.channel-1Shao0:has([data-list-item-id*="family-center"]){
+	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
+}
+.sectionDivider-189lqb{
+	display: none
+}
+.content-yjf30S div[style="height: 12px;"]{
+	display: none
+}
+[aria-label="Channels"]::before {
+    content: "\00a0";
+    position: relative;
+    height: 8px !important;
+}
+[aria-label="Channels"]::after {
+    content: "";
+	position: absolute;
+    height: 1px;
+}
+
+[aria-label="Channels"]::after, [aria-label="Channels"]::before {
+    width: 240px;
+}
