@@ -1,0 +1,10 @@
+
+#app-mount:has(.standardSidebarView-E9Pc3j){ /* Settings */
+	--Quote: "Yur settings are mine!";
+}
+#app-mount:has(#customcss-tab){ /* Custom CSS */
+	--Quote: "i'm somewhat of a coder myself";
+}
+#app-mount:has(.winButtonClose-3Q8ZH5:hover) { /* Close button */
+    --Quote: "Dont close me D:" !important;
+}

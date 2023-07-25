@@ -1,0 +1,9 @@
+#app-mount:has([aria-label="Favorites (server)"]){
+	--Quote: "Favorites should already be public, amirite?";
+}
+#app-mount:has([aria-label="Volte (server)"]){
+	--Quote: "Volte: Stupid CSS made by a stupid person";
+}
+#app-mount:has([aria-label="BetterDiscord (server)"]){
+	--Quote: "BetterDiscord: One stop shop to fixing poopcord";
+}

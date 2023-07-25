@@ -1,0 +1,38 @@
+:root{
+    --Quote: "A quote a day makes the braincells go away";
+    --mainMessage: "Quotey -";
+}
+.wordmarkWindows-2dq6rw {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    order: 1;
+    margin-right: auto;
+    color: var(--header-primary);
+}
+.wordmarkWindows-2dq6rw::before {
+    content: var(--mainMessage);
+    display: flex;
+    width: fit-content;
+    font-size: 12px;
+    font-family: var(--font-display);
+    font-weight: 700;
+	background-color: var(--background-primary);
+    padding: 2px 8px;
+    border-radius: 16px 0 0 16px;
+	order: 1
+}
+
+.wordmarkWindows-2dq6rw::after {
+    content: var(--Quote);
+    display: flex;
+    width: fit-content;
+    font-size: 12px;
+    font-family: var(--font-display);
+    font-weight: 700;
+	background-color: var(--background-primary);
+    padding: 2px 8px 2px 0;
+    border-radius: 0 16px 16px 0;
+	order: 2;
+	margin-left: -10px
+}
