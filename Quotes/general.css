@@ -3,7 +3,7 @@
 	--Quote: "Yur settings are mine!";
 }
 #app-mount:has(#customcss-tab){ /* Custom CSS */
-	--Quote: "i'm somewhat of a coder myself";
+	--Quote: "You know, I'm something of a coder myself";
 }
 #app-mount:has(.winButtonClose-3Q8ZH5:hover) { /* Close button */
 	--Quote: "Dont close me D:" !important;
