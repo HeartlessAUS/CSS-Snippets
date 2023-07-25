@@ -227,3 +227,89 @@
 .userPopoutOuter-1OHwPL .vertical-qPeOMD .button-ejjZWC{
 	border-radius: 25px !important;
 }
+.customizationSection-IGy2fS .bannerUploader-2hBvKz .banner-3D8GgT,
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp{
+	border-radius: 24px
+}
+
+.customizationSection-IGy2fS .avatarUploaderPremium-2urJVq{
+	top: 22px;
+	backdrop-filter: blur(12px);
+	background: #00000050;
+	border: 4px solid #00000000;
+	border-radius: 50%
+}
+.customizationSection-IGy2fS .section-28YDOf:has( .userText-1_v2Cq){
+	border-radius: 25px 25px 0 0;
+    padding-bottom: 0;
+	border: 2px solid var(--profile-gradient-primary-color);
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+.customizationSection-IGy2fS .section-28YDOf:has( .userText-1_v2Cq):has(+ .section-28YDOf .customStatus-19KW6v){ 
+	border-bottom: none;
+}
+.customizationSection-IGy2fS .section-28YDOf:has( .customStatus-19KW6v){ 
+	border: 2px solid var(--profile-gradient-primary-color);
+	border-top: none;
+	border-radius: 0 0 25px 25px;
+	margin-bottom: 8px
+}
+.customizationSection-IGy2fS .overlayBackground-2aa7wt{
+	margin: 0;
+	padding: 8px
+}
+.customizationSection-IGy2fS .lastSection-q3HCfo{
+	padding: 12px !important
+}
+.userProfileInnerThemedWithBanner-25XGmz{
+	border-radius: 25px
+}
+
+
+.accountProfilePopoutWrapper-3GskID .menu-2-eHMB{
+	margin-bottom: 0;
+	border-radius: 0
+}
+.scroller-nxCRu_{
+	padding: 0
+}
+
+.scroller-nxCRu_ > [role="group"]{
+	padding: 8px;
+	background-color: var(--profile-body-background-color);
+	margin-bottom: 2px;
+	border-radius: 3px;
+}
+.scroller-nxCRu_ > [role="group"]:has( #account-edit-custom-status){
+	border-radius: 24px 24px 3px 3px;
+}
+.scroller-nxCRu_ > [role="group"]:has([d*="M3.37868 2.87868C3.94129 2.31607"]){
+	border-radius: 3px 3px 22px 22px;
+	margin: 0
+}
+.profileColors-2AgAV4 :is(.usernameSection-3FppkT, .customStatusSection-2_fKRl, .profileBadges-2pItdR){
+	border: 2px solid var(--profile-gradient-secondary-color);
+}
+.userProfileOuterUnthemed-11rPfA :is(.usernameSection-3FppkT, .customStatusSection-2_fKRl, .profileBadges-2pItdR){
+	border: 2px solid var(--profile-body-background-color);
+}
+.userPopoutOuter-1OHwPL :is(.usernameSection-3FppkT:has(+ .customStatusSection-2_fKRl)){
+	border-bottom: 0 !important
+}
+.userPopoutOuter-1OHwPL :is(.usernameSection-3FppkT + .customStatusSection-2_fKRl){
+	border-top: 0 !important
+}
+.popoutNoBannerPremium-25mwJy{
+	opacity: 0 !important
+}
+.userPopoutOuter-1OHwPL .section-28YDOf:has( [aria-label="Role"]):not(:has(~ .section-1TK4Q0 .input-2z42oC)){
+	margin-bottom: 0;
+	border-radius: 3px;
+}
+.accountProfilePopoutWrapper-3GskID .menu-2-eHMB{
+	background: transparent
+}
+.separator-12G2Op{
+	display: none
+}
