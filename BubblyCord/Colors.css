@@ -34,7 +34,7 @@
 .privateChannelsHeaderContainer-1UWASm,
 .header-3OsQeK:has(+ .animatedContainer-2laTjx),
 .accountProfilePopoutWrapper-3GskID .menu-2-eHMB{
-	background-color: transparent
+	background-color: transparent !important
 }
 
 .search-39IXmY .search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {
