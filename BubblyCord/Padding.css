@@ -1,0 +1,43 @@
+.title-31SJ6t, .theme-dark .themed-Hp1KC_,
+.panels-3wFtMD:not(:hover) > :not(:last-child){
+	padding: 0
+}
+
+
+
+.container-3wLKDe{
+	padding-top: 48px
+}
+.tutorialContainer-1pL9QS {
+	padding-top: 12px
+}
+.libraryHeader-2loraV ~ .container-3u6dG-{
+	padding-top: 58px
+}
+
+
+
+.containerDefault-YUSmu3:has(+ .voiceChannelsButton-SRmgo8){
+	padding-bottom: 8px
+}
+
+
+.toolbar-3_r2xA,
+.wrapper-1_HaEi[style*="width: 0px"] + .base-2jDfDU{
+	padding: 4px
+}
+.children-3xh0VB{
+	padding: 12px 38px 12px 12px;
+}
+.form-3gdLxP{
+	padding: 0 10px
+}
+.base-2jDfDU{
+	padding: 4px 4px 4px 0;
+}
+.panels-3wFtMD .horizontal-1Piu5-:has( button[aria-label="Mute"]){
+	padding: 8px;
+}
+.videoControls-353CsJ{
+	padding: 0 6px 16px
+}

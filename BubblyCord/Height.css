@@ -1,0 +1,46 @@
+.membersWrap-3NUR2t{
+	min-height: 100%
+}
+.panels-3wFtMD:hover > :not(:last-child), .panels-3wFtMD:hover > .wrapper-3Hk90B~div{
+	max-height: 100%;
+}
+.panels-3wFtMD > :not(:last-child), .panels-3wFtMD > .wrapper-3Hk90B~div{
+	max-height: 0;
+}
+
+
+.toolbar-3_r2xA,
+.children-3xh0VB{
+	height: 100%;
+}
+
+.container-YkUktl{
+	height: 46px
+}
+[aria-label="Channels"]::after{
+	height: 1px;
+}
+[aria-label="Channels"]::before{
+	height: 8px !important;
+}
+.scroller-3X7KbA::before{
+	height: 64px !important;
+}
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer)::before,
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):before,
+.scroller-3X7KbA::after{
+	height: 122px !important;
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer):before{
+	height: 178px !important;
+}
+.wrapper-2SplAX{
+	height: 14px
+}
+.animatedContainer-2laTjx[style*="transform: translateY(-90px)"],
+.searchHeader-1r_ZSh{
+	height: 48px;
+}
+.unread-36eUEm{
+	height: 6px;
+}

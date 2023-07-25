@@ -9,3 +9,6 @@
 {
 	display: none
 }
+[aria-label="Channels"]::before{
+	display: block;
+}

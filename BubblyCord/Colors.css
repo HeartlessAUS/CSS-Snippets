@@ -81,3 +81,7 @@
 .repliedMessage-3Z6XBG:before{
     border-color: gray;
 }
+
+.voiceChannelsButton-SRmgo8{
+	background: var(--catagory-background);
+}

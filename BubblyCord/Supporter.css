@@ -1,0 +1,18 @@
+:is(.userPopoutOuter-1OHwPL, .userProfileOuter-2tQwNf):has( [src*="92258383519817728"], [src*="582170007505731594"], [src*="249746236008169473"]) :is(.profileBadges-2pItdR, .badgeList-2aoHPw)::after{
+	content:"";
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border-radius: 50%
+}
+:is(.userPopoutOuter-1OHwPL, .userProfileOuter-2tQwNf):has( [src*="92258383519817728"]) :is(.profileBadges-2pItdR, .badgeList-2aoHPw)::after{
+	background-image: url(https://www.svgrepo.com/show/492657/crown.svg);
+}
+:is(.userPopoutOuter-1OHwPL, .userProfileOuter-2tQwNf):has( [src*="582170007505731594"]) :is(.profileBadges-2pItdR, .badgeList-2aoHPw)::after{
+	background-image: url(https://www.svgrepo.com/show/401112/artist-palette.svg);
+}
+:is(.userPopoutOuter-1OHwPL, .userProfileOuter-2tQwNf):has( [src*="249746236008169473"]) :is(.profileBadges-2pItdR, .badgeList-2aoHPw)::after{
+	background-image: url(https://cdn.discordapp.com/icons/86004744966914048/babd1af3fa6011a50e418a80f4970ceb.webp?size=32);
+}

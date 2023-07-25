@@ -1,0 +1,163 @@
+[aria-label="Friends"] .children-3xh0VB{
+	margin-right: 20px
+}
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .toolbar-3_r2xA,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .toolbar-3_r2xA{
+	margin-right: 16px;
+}
+.toolbar-3_r2xA .iconWrapper-2awDjA{
+	margin-right: 10px;
+}
+.container-3wLKDe,
+.sidebar-1tnWFu,
+.chatContent-3KubbW{
+	margin-right: 8px;
+}
+#cui-toolbar-container:hover .iconWrapper-2awDjA{
+	margin-right: 4px !important;
+}
+.libraryHeader-2loraV .children-3xh0VB,
+[aria-label="Thread header"] .children-3xh0VB,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .children-3xh0VB,
+.children-3xh0VB:has(+ .toolbar-3_r2xA .returnButton-1xn3Ii),
+.topControls-23RE3h .children-3xh0VB,
+.channelChatWrapper-35N3nR .children-3xh0VB,
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .children-3xh0VB,
+.avatarWrapper-1B9FTW {
+	margin-right: 0; 
+}
+.children-3xh0VB .iconWrapper-2awDjA,
+.chat-2ZfjoI:has(~ .container-3XgAHv){
+	margin-right: -8px
+}
+#cui-toolbar-container:hover{
+	margin-right: -44px !important;
+}
+
+
+
+
+.nowPlayingColumn-1eCBCN,
+.container-2giAcK{
+	margin-left: 8px;
+}
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .toolbar-3_r2xA,
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .toolbar-3_r2xA,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .toolbar-3_r2xA,
+.libraryHeader-2loraV .toolbar-3_r2xA,
+[aria-label="Thread header"] .toolbar-3_r2xA,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .toolbar-3_r2xA,
+.toolbar-3_r2xA:has(.returnButton-1xn3Ii),
+.topControls-23RE3h .toolbar-3_r2xA,
+.channelChatWrapper-35N3nR .toolbar-3_r2xA{
+	margin-left: 0; 
+}
+
+
+
+
+
+.title-31SJ6t,
+.themed-Hp1KC_{
+	margin-top: 8px
+}
+.content-1jQy2l,
+.tabBody-2dgbAs, 
+.container-3u6dG-{
+	margin-top: -58px;
+}
+.members-3WRCEx, .messagesWrapper-RpOMA3, .container-1NXEtd{
+	margin-top: 52px
+}
+.peopleColumn-1wMU14 .searchBar-2aylmZ,
+.header-Imy05m,
+.peopleColumn-1wMU14 .header-30YxSJ, 
+.table-2J5ScI,
+.tabBar-1_P75h{
+	margin-top: 68px
+}
+.container-1-ERn5{
+	margin-top: -52px
+}
+.scroller-1ox3I2::-webkit-scrollbar-track,
+.scroller-kQBbkU::-webkit-scrollbar-track,
+.members-3WRCEx::-webkit-scrollbar-track{
+	margin-top: 10px !important
+}
+.scroller-3X7KbA > div:not([class]){
+	margin-top: 72px
+}
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer) > div:not([class]){
+	margin-top: 128px
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) > div:not([class]){
+	margin-top: 126px
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) > div:not([class]){
+	margin-top: 184px
+}
+.scroller-3X7KbA:has( .ColorwaySelectorBtnContainer) > [style*="opacity: 1"] ~ [aria-label="Servers"],
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) > [style*="opacity: 1"] ~ [aria-label="Servers"],
+.scroller-3X7KbA:has( [aria-label*="Favorites"]):has( .ColorwaySelectorBtnContainer) > [style*="opacity: 1"] ~ [aria-label="Servers"],
+.chatHeaderBar-2fUORh ~ .messagesWrapper-RpOMA3,
+.messagesWrapper-RpOMA3:has( .container-3YcgdM){
+	margin-top: 0px
+}
+.topControls-23RE3h{
+	margin-top: 6px
+}
+.channelChatWrapper-35N3nR .chatContent-3KubbW{
+	margin-top: -56px
+}
+.chatHeaderBar-2fUORh, .container-27JV1h{
+	margin-top: 58px
+}
+
+
+.channelTextArea-1FufC0{
+	margin-bottom: 10px
+}
+.scroller-1ox3I2{
+	margin-bottom: -4px;
+}
+.scroller-3X7KbA > div:not([class]){
+	margin-bottom: 130px;
+}
+.scroller-3X7KbA:has( [aria-label*="Favorites"]) > [style*="opacity: 1"]{
+	margin-bottom: 0px
+}
+.wrapper-2SplAX{
+	margin-bottom: 8px;
+}
+
+.toolbar-3_r2xA{
+	margin: 0px 8px;
+}
+.children-3xh0VB{
+	margin: 0 16px 0 8px
+}
+.searchBar-3TnChZ{
+	margin: 8px 8px 0 8px;
+}
+.header-3OsQeK{
+	margin: 7px 8px 0 8px;
+}
+.animatedContainer-2laTjx{
+	margin: 7px 8px 0 8px;
+}
+.panels-3wFtMD{
+	margin: 0 8px 8px 8px;
+}
+
+.panels-3wFtMD :is([aria-label="Disable Game Activity"], [aria-label="Enable Game Activity"], [aria-label="Mute"], [aria-label="Deafen"], [aria-label="User Settings"]){
+    margin: 0 12px;
+}
+.panels-3wFtMD .horizontal-1Piu5-:has( button[aria-label="Mute"]){
+	margin: auto;
+}
+.voiceChannelsButton-SRmgo8{
+	margin: 0 0 var(--catagory-spacing) 8px;
+}
+.searchHeader-1r_ZSh{
+	margin: 10px 8px 0 8px;
+}

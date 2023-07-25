@@ -1,0 +1,20 @@
+@media (max-width: 1200px){
+	[aria-label="Friends"] .children-3xh0VB,
+	.children-3xh0VB:has(+ .toolbar-3_r2xA [aria-label="Show User Profile (Unavailable)"]){
+		margin-right: 0; 
+		border-radius: var(--radius-small) 0 0 var(--radius-small);
+	}
+	[aria-label="Friends"] .toolbar-3_r2xA,
+	.toolbar-3_r2xA:has([aria-label="Show User Profile (Unavailable)"])	{
+		margin-left: 0;
+		border-radius: 0 var(--radius-small) var(--radius-small) 0;
+		width: auto
+	}
+	.toolbar-3_r2xA:has([aria-label="Show User Profile (Unavailable)"]){
+		margin-right: 18px
+	}
+	.tabBar-ra-EuL .addFriend-emTWY1{
+		position: relative;
+		right: 0
+	}
+}
