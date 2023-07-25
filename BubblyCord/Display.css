@@ -5,7 +5,8 @@
 .guildBreadcrumbContainer-3LUtHj .caret-1le2LN, /* Arrow in favorites */ 
 .favoritesInfo-3HTE7X, /* Icon for info in favorites */
 .wordmarkWindows-2dq6rw path:nth-child(1), .wordmarkWindows-2dq6rw path:nth-child(2), /* some svg elements in main header */
-.menu-2-eHMB div[role=separator]
+.menu-2-eHMB div[role=separator],
+.children-3xh0VB:after
 
 {
 	display: none
