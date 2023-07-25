@@ -6,8 +6,8 @@
 	--Quote: "i'm somewhat of a coder myself";
 }
 #app-mount:has(.winButtonClose-3Q8ZH5:hover) { /* Close button */
-    --Quote: "Dont close me D:" !important;
+	--Quote: "Dont close me D:" !important;
 }
 #app-mount:has(.chat-25x62K > [aria-label="Quotey (thread)"], .content-1jQy2l > [aria-label="Quotey (thread)"]) { /* Close button */
-    --Quote: "You've Bamboozled yourself, Quotey is already on";
+	--Quote: "You've Bamboozled yourself, Quotey is already on";
 }
