@@ -11,3 +11,6 @@
 #app-mount:has(.chat-25x62K > [aria-label="Quotey (thread)"], .content-1jQy2l > [aria-label="Quotey (thread)"]) {
 	--Quote: "You've Bamboozled yourself, Quotey is already on";
 }
+#app-mount:has(.bd-error-modal) {
+	--Quote: "Warning, Warning, Discord explosion imminent";
+}
