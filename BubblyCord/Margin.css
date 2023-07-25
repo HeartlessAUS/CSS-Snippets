@@ -23,7 +23,8 @@
 .topControls-23RE3h .children-3xh0VB,
 .channelChatWrapper-35N3nR .children-3xh0VB,
 .chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .children-3xh0VB,
-.avatarWrapper-1B9FTW {
+.avatarWrapper-1B9FTW,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .children-3xh0VB {
 	margin-right: 0; 
 }
 
