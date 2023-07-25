@@ -1,0 +1,57 @@
+.nowPlayingColumn-1eCBCN{
+	min-width: unset;
+}
+.container-2o3qEW:has(> .membersWrap-3NUR2t:not([style*="min-width: 0px"])){
+	min-width: 240px;
+}
+
+
+.nowPlayingColumn-1eCBCN,
+.customizationSection-IGy2fS .lastSection-q3HCfo .button-1d_47w{
+	max-width: unset;
+}
+
+
+
+
+.bannerImage-ubW8K-,
+.panels-3wFtMD .horizontal-1Piu5-:has( button[aria-label="Mute"]){
+	width: 100%;
+}
+
+[aria-label="Friends"] .toolbar-3_r2xA{
+	width: 294px;
+}
+.chat-2ZfjoI:has(.profilePanel-2VBkh8) .toolbar-3_r2xA{
+	width: 324px;
+}
+.nowPlayingColumn-1eCBCN{
+	width: 310px;
+}
+.search-39IXmY .search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {
+	width: 27px;
+}
+.search-39IXmY .open-1F8u2c .searchBar-jGtisZ {
+	width: 200px;
+}
+.toolbar-3_r2xA,
+.animatedContainer-2laTjx{
+	width: 224px;
+}
+[aria-label="Channels"]::after,
+[aria-label="Channels"]::before{
+	width: 240px;
+}
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt{
+	width: 214px;
+}
+.scroller-3X7KbA::after, .scroller-3X7KbA::before{
+	width: 62px;
+}
+.unread-36eUEm{
+	width: 6px;
+}
+
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .title-31SJ6t{
+	width: calc(100% - 426px)
+}
