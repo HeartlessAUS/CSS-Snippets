@@ -1,6 +1,6 @@
 /**
  * @name BubblyCord Internals
- * @version 2.0
+ * @version 2.0.1
 */
 @import url("https://heartlessaus.github.io/CSS-Snippets/BubblyCord/Main.css"); /* Bubbly Main Components */
 
@@ -13,7 +13,7 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css"); /* Setting icons by mwittrien */
 
 :root {
-	--mainMessage: "BubblyCord v2.0 -";
+	--mainMessage: "BubblyCord v2.0.1 -";
 	--Quote: "Rounded Discord, what more can you ask for.";
 	
 	--radius-big: 16px; /* Outer elements radius */
