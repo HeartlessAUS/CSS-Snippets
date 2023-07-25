@@ -77,10 +77,6 @@
 	border-radius: 0 0 var(--radius-small) var(--radius-small);
 }
 
-.content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
-	border-radius: 0
-}
-
 .unread-36eUEm{
 	border-radius: 50%;
 }
