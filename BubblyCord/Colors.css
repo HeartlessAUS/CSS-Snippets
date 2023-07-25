@@ -1,0 +1,83 @@
+.nowPlayingColumn-1eCBCN .container-1oAagU,
+.peopleColumn-1wMU14, 
+.scroller-2XLwLg, 
+.applicationStore-2nk7Lo,
+.pageWrapper-2PwDoS, 
+.scroller-RfJjkV, 
+.container-3wLKDe,
+.container-2IKOsH:has(.tabBar-1_P75h),
+.chatContent-3KubbW,
+.container-2giAcK,
+.panels-3wFtMD :is([aria-label="Disable Game Activity"], [aria-label="Enable Game Activity"], [aria-label="Mute"], [aria-label="Deafen"], [aria-label="User Settings"]),
+[aria-label*="(thread)"] + .membersWrap-3NUR2t,
+.pageBody-23bo4p, 
+.emptyPage-2TGR7j,
+.scrollerContainer-y16Rs9,
+.content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)),
+.searchResultsWrap-5RVOkx{
+	background-color: var(--background-primary) !important
+}
+.mainCard-3KBsBI,
+.scroller-3X7KbA::after,
+.scroller-3X7KbA::before,
+.searchResult-O9NDji{
+	background-color: var(--background-secondary)
+}
+
+.chat-2ZfjoI,
+.title-31SJ6t,
+.themed-Hp1KC_,
+.container-2cd8Mz,
+.search-39IXmY .search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ,
+.chat-2ZfjoI, .members-3WRCEx,
+.container-YkUktl,
+.privateChannelsHeaderContainer-1UWASm,
+.header-3OsQeK:has(+ .animatedContainer-2laTjx),
+.accountProfilePopoutWrapper-3GskID .menu-2-eHMB{
+	background-color: transparent
+}
+
+.search-39IXmY .search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {
+  background-color: var(--background-tertiary);
+}
+
+.toolbar-3_r2xA, 
+.children-3xh0VB, 
+.searchBar-3TnChZ,
+.header-3OsQeK,
+#cui-toolbar-container:hover,
+.withTagAsButton-OsgQ9L, 
+.withTagless-10ooWt,
+.panels-3wFtMD .horizontal-1Piu5-:has([aria-label="Mute"]){
+	background: var(--background-secondary-alt);
+}
+
+
+.mentioned-Tre-dv {
+    background-color: hsl(var(--primary-500-hsl)/1);
+}
+.mentioned-Tre-dv:before{
+	background-color: hsl(var(--brand-700-hsl)/1);
+}
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy,
+.mouse-mode.full-motion .mentioned-Tre-dv:hover {
+    background-color: hsl(var(--brand-800-hsl)/0.3);
+}
+
+
+
+
+
+.search-39IXmY .search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ .iconContainer-1RqWJj .icon-18rqoe {
+	color: var(--interactive-normal);
+}
+
+.spine-29OFwR{
+    color: gray;
+}
+
+
+
+.repliedMessage-3Z6XBG:before{
+    border-color: gray;
+}

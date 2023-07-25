@@ -1,0 +1,11 @@
+.toolbar-3_r2xA [href="https://support.discord.com"],/* Support icon in Toolbar */
+.toolbar-3_r2xA [aria-label="Help"],/* Help icon in Toolbar */
+.sectionDivider-189lqb,/* Divider Between Important and Channels */
+.content-yjf30S div[style="height: 12px;"],/* Odd Gap between Guild header and channels */
+.guildBreadcrumbContainer-3LUtHj .caret-1le2LN, /* Arrow in favorites */ 
+.favoritesInfo-3HTE7X, /* Icon for info in favorites */
+.wordmarkWindows-2dq6rw path:nth-child(1), .wordmarkWindows-2dq6rw path:nth-child(2) /* some svg elements in main header */
+
+{
+	display: none
+}

@@ -1,0 +1,86 @@
+.content-1jQy2l .userPanelInnerThemed-3YO1BB,
+.content-1jQy2l .userPanelInner-3KPel3:before,
+.content-1jQy2l .profileColors-2AgAV4,
+.content-1jQy2l .profilePanel-2VBkh8,
+.content-1jQy2l .bannerSVGWrapper-2CLfzN,
+.content-1jQy2l .bannerPremium-kkSkPv,
+.content-1jQy2l .scrollerBase-1Pkza4,
+.container-3XgAHv,
+.nowPlayingColumn-1eCBCN,
+.nowPlayingColumn-1eCBCN .container-1oAagU,
+.peopleColumn-1wMU14,
+.scroller-2XLwLg,
+.applicationStore-2nk7Lo,
+.pageWrapper-2PwDoS, 
+.scroller-RfJjkV, 
+.container-3wLKDe,
+.container-2IKOsH:has(.tabBar-1_P75h),
+.content-1jQy2l,
+.chat-2ZfjoI,
+.sidebar-1tnWFu,
+.chatContent-3KubbW,
+.container-2o3qEW,
+.scroller-3X7KbA::after, 
+.scroller-3X7KbA::before,
+[aria-label*="(thread)"] + .membersWrap-3NUR2t,
+.searchResultsWrap-5RVOkx{
+	border-radius: var(--radius-big) !important;
+}
+
+.toolbar-3_r2xA, 
+.children-3xh0VB,
+.searchBar-3TnChZ,
+.header-3OsQeK,
+.animatedContainer-2laTjx,
+.panels-3wFtMD,
+.container-2giAcK,
+.container-YkUktl,
+.searchHeader-1r_ZSh{
+	border-radius: var(--radius-small);
+}
+
+.mentioned-Tre-dv,
+.libraryHeader-2loraV .toolbar-3_r2xA,
+[aria-label="Thread header"] .toolbar-3_r2xA,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .toolbar-3_r2xA,
+.toolbar-3_r2xA:has(.returnButton-1xn3Ii,
+.topControls-23RE3h .toolbar-3_r2xA,
+.channelChatWrapper-35N3nR .toolbar-3_r2xA,
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .toolbar-3_r2xA,
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .toolbar-3_r2xA,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .toolbar-3_r2xA{
+	border-radius: 0 var(--radius-small) var(--radius-small) 0;
+}
+
+.libraryHeader-2loraV .children-3xh0VB,
+[aria-label="Thread header"] .children-3xh0VB,
+.chat-2ZfjoI:not(:has(.container-2o3qEW)) .forumOrHome-2VTX6r .children-3xh0VB,
+.children-3xh0VB:has(+ .toolbar-3_r2xA .returnButton-1xn3Ii),
+.libraryHeader-2loraV .children-3xh0VB,
+.topControls-23RE3h .children-3xh0VB,
+.channelChatWrapper-35N3nR .children-3xh0VB,
+.chat-2ZfjoI:has(.chatHeaderBar-2fUORh) .children-3xh0VB,
+.chat-2ZfjoI:has( .searchResultsWrap-5RVOkx) .children-3xh0VB,
+.content-1SgpWY:not([aria-label*="(thread)"]) .chat-2ZfjoI:not(:has( .content-1jQy2l :is(.container-2o3qEW, .membersWrap-3NUR2t))) .children-3xh0VB{
+	border-radius: var(--radius-small) 0 0 var(--radius-small);
+}
+
+.panels-3wFtMD > :not(:last-child), 
+.panels-3wFtMD > .wrapper-3Hk90B~div,
+.panels-3wFtMD .horizontal-1Piu5-:has( button[aria-label="Mute"]),
+.channel-1Shao0:nth-child(2) {
+	border-radius: var(--radius-small) var(--radius-small) 0 0;
+}
+
+.voiceChannelsButton-SRmgo8,
+.channel-1Shao0:has(+.privateChannelsHeaderContainer-1UWASm) {
+	border-radius: 0 0 var(--radius-small) var(--radius-small);
+}
+
+.content-yjf30S .channel-1Shao0:is(:nth-child(2),:nth-child(3),:nth-child(4),:nth-child(5)) {
+	border-radius: 0
+}
+
+.unread-36eUEm{
+	border-radius: 50%;
+}
