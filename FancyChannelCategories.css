@@ -72,10 +72,7 @@
 .channel-1Shao0:first-of-type{
 	border-radius: var(--catagory-radius) var(--catagory-radius) 0 0;
 }
-.channel-1Shao0:has([data-list-item-id*="messageRequests"]):not(:has(+ .channel-1Shao0 [data-list-item-id*="family-center"])){
-	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
-}
-.channel-1Shao0:has([data-list-item-id*="family-center"]){
+.channel-1Shao0:has(+ .container-q97qHp){
 	border-radius: 0 0 var(--catagory-radius) var(--catagory-radius);
 }
 .sectionDivider-189lqb{
