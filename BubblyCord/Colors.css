@@ -72,10 +72,12 @@
 	color: var(--interactive-normal);
 }
 
-.spine-29OFwR, .spineBorder-1-F4s1{
+.spine-29OFwR{
     color: gray;
 }
-
+.spineBorder-1-F4s1{
+    background: gray;
+}
 
 
 .repliedMessage-3Z6XBG:before{
